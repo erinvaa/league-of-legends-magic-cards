@@ -8,7 +8,6 @@ Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owne
 These champions still need card designs. Feel free to suggest options.
 
 * Alistar (R)
-* Anivia (WU)
 * Corki (R)
 * Darius (R)
 * Diana (WB)
@@ -20,14 +19,12 @@ These champions still need card designs. Feel free to suggest options.
 * Karma (GW)
 * Kassadin (WB)
 * Kennen (RG)
-* Kindred (G)
 * Lee Sin (GW)
 * Lux (W)
 * Malphite (R)
 * Master Yi (GW)
 * Miss Fortune (R)
 * Morgana (BR)
-* Nami (WU)
 * Nunu (UR)
 * Pantheon (R)
 * Shaco (BR)
@@ -36,5 +33,4 @@ These champions still need card designs. Feel free to suggest options.
 * Taric (Waiting for rework)
 * Tristana (R)
 * Trundle (RG)
-* Vayne (RW)
 * Volibear (RG)
