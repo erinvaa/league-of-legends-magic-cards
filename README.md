@@ -31,6 +31,5 @@ These champions still need card designs. Feel free to suggest options.
 * Skarner (?)
 * Swain (WB)
 * Taric (Waiting for rework)
-* Tristana (R)
 * Trundle (RG)
 * Volibear (RG)
