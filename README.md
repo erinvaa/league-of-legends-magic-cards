@@ -7,10 +7,8 @@ Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owne
 ## Champions without good enough cards
 These champions still need card designs. Feel free to suggest options.
 
-* Corki (R)
 * Diana (WB)
 * Fiora (RW)
-* Gragas (UR)
 * Irelia (RW)
 * Jarvan IV (RW)
 * Jax (R)
@@ -21,8 +19,8 @@ These champions still need card designs. Feel free to suggest options.
 * Miss Fortune (R)
 * Morgana (BR)
 * Nunu (UR)
-* Pantheon (R)
 * Skarner (?)
 * Taric (Waiting for rework)
+* Tristana (R)
 * Trundle (RG)
 * Volibear (RG)
