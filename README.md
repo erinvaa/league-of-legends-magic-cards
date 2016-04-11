@@ -9,4 +9,4 @@ These champions don't have enough lore to make a card for them do justice (or th
 
 * Jax
 * Lee Sin
-* Taric
+* Skarner
