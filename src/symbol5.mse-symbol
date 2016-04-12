@@ -1,0 +1,105 @@
+﻿mse version: 0.3.5
+part:
+	type: shape
+	name: Triangle
+	combine: merge
+	point:
+		position: (0.3848432888,0.1339106002)
+		lock: free
+		line after: line
+	point:
+		position: (0.3252319170,0.0627011018)
+		lock: free
+		line after: line
+	point:
+		position: (0.4447256741,0.0624657762)
+		lock: free
+		line after: line
+part:
+	type: shape
+	name: Triangle
+	combine: merge
+	point:
+		position: (0.1995183412,0.1339106002)
+		lock: free
+		line after: line
+	point:
+		position: (0.1399069694,0.0627011018)
+		lock: free
+		line after: line
+	point:
+		position: (0.2594007265,0.0624657762)
+		lock: free
+		line after: line
+part:
+	type: shape
+	name: Triangle
+	combine: merge
+	point:
+		position: (0.2027253669,0.8257861635)
+		lock: free
+		line after: line
+	point:
+		position: (0.2719077568,0.9056711064)
+		lock: free
+		line after: line
+	point:
+		position: (0.1335429769,0.9056711064)
+		lock: free
+		line after: line
+part:
+	type: shape
+	name: Triangle
+	combine: merge
+	point:
+		position: (0.7402355160,0.9046743538)
+		lock: free
+		line after: line
+	point:
+		position: (0.8251251291,0.6333761652)
+		lock: free
+		line after: line
+	point:
+		position: (0.5672600493,0.7290552597)
+		lock: free
+		line after: line
+part:
+	type: shape
+	name: Rectangle
+	combine: merge
+	point:
+		position: (0.3574423480,0.7293501048)
+		lock: free
+		line after: line
+	point:
+		position: (0.7410901468,0.7293501048)
+		lock: free
+		line after: line
+	point:
+		position: (0.7410901468,0.9054507338)
+		lock: free
+		line after: line
+	point:
+		position: (0.3574423480,0.9054507338)
+		lock: free
+		line after: line
+part:
+	type: shape
+	name: Rectangle
+	combine: overlap
+	point:
+		position: (0.2006289308,0.0626834382)
+		lock: free
+		line after: line
+	point:
+		position: (0.3851153040,0.0626834382)
+		lock: free
+		line after: line
+	point:
+		position: (0.3851153040,0.9054507338)
+		lock: free
+		line after: line
+	point:
+		position: (0.2006289308,0.9054507338)
+		lock: free
+		line after: line
