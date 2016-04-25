@@ -2660,7 +2660,7 @@ card:
 	time created: 2016-01-26 01:01:13
 	time modified: 2016-04-06 22:17:53
 	name: Shyvana, Half-Dragon
-	casting cost: 2R
+	casting cost: 1R
 	image: image112
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Dragon</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -2976,7 +2976,7 @@ card:
 	rarity: rare
 	rule text:
 		At the beginning of your upkeep, put a +1/+1 counter on <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>, then you lose 1 life.
-		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: Deal damage equal to his power to target creature.
+		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: Varus deals damage equal to his power to target creature.
 	flavor text: <i-flavor>“I’m on borrowed time.”</i-flavor>
 	power: 2
 	toughness: 2
@@ -2997,8 +2997,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		<sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>: Target creature you control gains <kw-0><nospellcheck>protection from <param-name>Black until end of turn</param-name></nospellcheck></kw-0>.
+		<kw-a><nospellcheck>First Strike</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> attacks, you may pay 1WW. If you do, exile target creature until <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> leaves the battlefield.
 	flavor text: <i-flavor>“Let us hunt those who have fallen to darkness”</i-flavor>
 	power: 3
 	toughness: 2
@@ -3693,7 +3693,7 @@ card:
 	sub type: <word-list-race>Snake</word-list-race> <word-list-class>Horror</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
 		When <atom-legname><nospellcheck>Baron Nashor</nospellcheck></atom-legname> dies, put a +1/+1 counter on each creature your opponents control.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
@@ -3847,12 +3847,6 @@ card:
 	copyright: 
 	image 2: 
 	copyright 2: 
-keyword:
-	keyword: Vision
-	match: vision
-	reminder: To gain vision of a creature, that creature’s control decides whether that creature must attack or block this turn if able, or can’t attack or block this turn.
-	rules: 
-	mode: action
 version control:
 	type: none
 apprentice code: 
