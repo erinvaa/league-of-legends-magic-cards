@@ -833,7 +833,7 @@ card:
 	time created: 2016-01-23 18:23:30
 	time modified: 2016-04-02 02:13:18
 	name: Elise, High Priestess of Vilemaw
-	casting cost: 3B
+	casting cost: 2B
 	image: image35
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -918,7 +918,7 @@ card:
 	rarity: rare
 	rule text:
 		You may cast <atom-legname><nospellcheck>Fiddlesticks</nospellcheck></atom-legname> as though it had <kw-0><nospellcheck>flash</nospellcheck></kw-0> if you pay <sym-auto>2</sym-auto> more to cast it.
-		When <atom-legname><nospellcheck>Fiddlesticks</nospellcheck></atom-legname> enters the battlefield, put three 1/1 black Bird creature token with <kw-0><nospellcheck>flying</nospellcheck></kw-0> onto the battlefield. They get +1/+1 until end of turn.
+		When <atom-legname><nospellcheck>Fiddlesticks</nospellcheck></atom-legname> enters the battlefield, put two 1/1 black Bird creature token with <kw-0><nospellcheck>flying</nospellcheck></kw-0> onto the battlefield. They get +1/+1 until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -1002,7 +1002,7 @@ card:
 	sub type: <word-list-race>Gargoyle</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>
 		<sym-auto>1WW</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Galio</nospellcheck></atom-legname> gains +0/+3 and “Whenever <atom-legname><nospellcheck>Galio</nospellcheck></atom-legname> is dealt damage by a creature, he deals that much damage to that creature” until the end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -1093,11 +1093,12 @@ card:
 	super type 2: <word-list-type>Legendary Creature</word-list-type>
 	sub type 2: <word-list-race>Beast</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text 2:
-		When <atom-legname><nospellcheck>Mega Gnar</nospellcheck></atom-legname> transforms, creatures you control get +2/+2 and gain <kw-0><nospellcheck>trample</nospellcheck></kw-0> until end of turn.
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Mega Gnar</nospellcheck></atom-legname> transforms, you may destroy target non-creature permanent.
 		At the beginning of your upkeep, remove all fury counters from <atom-legname><nospellcheck>Mega Gnar</nospellcheck></atom-legname> and transform him.
 	flavor text 2: <i-flavor></i-flavor>
-	power 2: 4
-	toughness 2: 4
+	power 2: 5
+	toughness 2: 5
 	copyright 2: 
 card:
 	has styling: false
@@ -1315,10 +1316,10 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Jarvan IV</nospellcheck></atom-legname> attacks, attacking creatures you control get +1/+1 until end of turn.
+		<sym-auto>2W</sym-auto>: <atom-legname><nospellcheck>Jarvan IV</nospellcheck></atom-legname> gains indestructible until end of turn.
+		When <atom-legname><nospellcheck>Jarvan IV</nospellcheck></atom-legname> attacks, you may pay <sym-auto>X</sym-auto>. If you do, up to X target creatures block this turn if able.
 	flavor text: <i-flavor>“By my will, this shall be finished.”</i-flavor>
-	power: 3
+	power: 4
 	toughness: 3
 	custom card number: 
 	card code text: 
@@ -1379,7 +1380,7 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <sym-auto>2RW</sym-auto>: Deal 3 damage to target creature you don’t control. If that creature dies this turn, creatures you don’t control can’t attack this turn.
+	rule text: <sym-auto>2RW</sym-auto>, <sym-auto>T</sym-auto>: Deal 3 damage to target creature you don’t control. If that creature dies this turn, creatures you don’t control can’t attack this turn.
 	flavor text: <i-flavor>“Peace, no matter the cost.”</i-flavor>
 	power: 2
 	toughness: 2
@@ -1418,14 +1419,14 @@ card:
 	time created: 2016-01-24 01:39:48
 	time modified: 2016-04-11 02:14:59
 	name: Kassadin, Void Walker
-	casting cost: 2GW
+	casting cost: 1WUB
 	image: image57
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>BG</sym-auto>: <atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname> gets +1/+1 and <kw-0><nospellcheck>trample</nospellcheck></kw-0> until end of turn. Activate this ability only if an opponent controls a swamp.
-		<sym-auto>4WB</sym-auto>, <sym-auto>T</sym-auto>: Exile target black permanent.
+		<kw-0><nospellcheck>Flash</nospellcheck></kw-0>
+		When <atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname> enters the battlefield, you may counter target spell. If you counter a <nospellcheck>Voidborn</nospellcheck> spell this way, put two +1/+1 counters on Kassadin.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -1497,7 +1498,7 @@ card:
 		<atom-legname><nospellcheck>Morgana</nospellcheck></atom-legname> gets +2/+2 while an opponent controls a white permanent.
 		Pay 1 life: Target creature get -1/-1 until end of turn. Activate this ability only once per turn.
 	flavor text: <i-flavor>“There is no rest while Kayle’s brand of tyranny still exists.”</i-flavor>
-	power: 2
+	power: 3
 	toughness: 3
 	custom card number: 
 	card code text: 
@@ -1520,7 +1521,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>Ninjutsu <param-cost><sym-auto>RG</sym-auto></param-cost></nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals combat damage to a player, add <sym-auto>RRGG</sym-auto> to your mana pool. This mana doesn’t empty from your mana pool until the end of the turn.
+		When <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals combat damage to a player, you may pay <sym-auto>XRR</sym-auto>. If you do, <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals X damage to target creature or planeswalker.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -1564,11 +1565,9 @@ card:
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Damage dealt by creatures cannot be prevented.
-		Creatures lose <kw-0><nospellcheck>indestructible</nospellcheck></kw-0>, can’t have or gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0>, and cannot <kw-0><nospellcheck>regenerate</nospellcheck></kw-0>.
+		Damage dealt by creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</kw-0></nospellcheck>.
+		Creatures cannot leave the battlefield during combat. <i-auto>(Creatures dealt lethal damage will remain until after combat. Creature cannot be sacrificed during combat, and players cannot do so as a cost.)</i-auto>
 	flavor text:
-		<i-flavor>Embracing life means accepting death.
-		— Lamb</i-flavor>
 	power: 4
 	toughness: 4
 	custom card number: 
@@ -1587,7 +1586,7 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Voidborn</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: At the beginning of your upkeep, each player exiles a permanent they control. Then put a +1/+1 counter on <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname>.
+	rule text: At the beginning of your upkeep, pay <sym-auto>BG</sym-auto> or exile a permanent you control. Then put two +1/+1 counter on <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname>.
 	flavor text: <i-flavor>“If that’s just hungry, I don’t want to see angry.”</i-flavor>
 	power: 2
 	toughness: 1
@@ -1671,7 +1670,7 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Iceborn</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <sym-auto>4UB</sym-auto>, <sym-auto>T</sym-auto>: Tap up to 3 target creatures. Each of those creatures you don’t control get -1/-1 until end of turn.
+	rule text: <sym-auto>4UB</sym-auto>, <sym-auto>T</sym-auto>: Tap up to 3 target creatures you don’t control. They get -1/-1 until end of turn.
 	flavor text: <i-flavor>“I will bury the world in ice.”</i-flavor>
 	power: 3
 	toughness: 3
@@ -3217,7 +3216,7 @@ card:
 	rule text:
 		<atom-cardname><nospellcheck>Howling Abyss</nospellcheck></atom-cardname> enters the battlefield tapped.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>R</sym-auto> to your mana pool.
-		<sym-auto>2UR</sym-auto>, <sym-auto>T</sym-auto>: Tap target creature and deal 1 damage to another target creature.
+		<sym-auto>2UR</sym-auto>, <sym-auto>T</sym-auto>: Until end of turn, creatures can't be prevented from blocking. <i-auto>(Creatures effectively lose flying).</i-auto>
 	flavor text: <i-flavor></i-flavor>
 	custom card number: 
 	card code text: 
@@ -3356,7 +3355,7 @@ card:
 	rule text:
 		<atom-cardname><nospellcheck>Bandle City</nospellcheck></atom-cardname> enters the battlefield tapped.
 		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>W</sym-auto> to your mana pool.
-		<sym-auto>1GW</sym-auto>, <sym-auto>T</sym-auto>, Tap an untapped nontoken creature you control: Each creature you control gains <kw-0><nospellcheck>vigilance</nospellcheck></kw-0> and <kw-0><nospellcheck>trample</nospellcheck></kw-0> until the end of turn.
+		<sym-auto>1GW</sym-auto>, <sym-auto>T</sym-auto>: Put a 1/1 white Yordle creature token onto the battlefield.
 	flavor text: <i-flavor></i-flavor>
 	custom card number: 
 	card code text: 
@@ -3634,7 +3633,7 @@ card:
 	casting cost: 2RR
 	image: image71
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub type: Elder <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
@@ -3688,7 +3687,7 @@ card:
 	time created: 2016-03-28 20:16:29
 	time modified: 2016-03-30 00:01:29
 	name: Baron Nashor
-	casting cost: 4GG
+	casting cost: 4BG
 	image: image154
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Snake</word-list-race> <word-list-class>Horror</word-list-class><soft> </soft><word-list-class></word-list-class>
