@@ -1069,7 +1069,7 @@ card:
 		AV: I’ve got notes from everyone indicated he’s too fragile. I’ll have to find a tweak
 		AV: Now taps to deal damage (to help flip him) and gives a bonus to your whole team when he flips (to increase reward)
 	time created: 2016-01-23 22:30:06
-	time modified: 2016-04-04 22:22:21
+	time modified: 2016-04-25 19:42:51
 	name: Gnar, Missing Link
 	casting cost: 1G
 	image: image44
@@ -1094,7 +1094,7 @@ card:
 	sub type 2: <word-list-race>Beast</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text 2:
 		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Mega Gnar</nospellcheck></atom-legname> transforms, you may destroy target non-creature permanent.
+		When <atom-legname><nospellcheck>Mega Gnar</nospellcheck></atom-legname> transforms, you may destroy target noncreature permanent.
 		At the beginning of your upkeep, remove all fury counters from <atom-legname><nospellcheck>Mega Gnar</nospellcheck></atom-legname> and transform him.
 	flavor text 2: <i-flavor></i-flavor>
 	power 2: 5
@@ -1308,7 +1308,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 23:47:10
-	time modified: 2016-03-30 23:00:09
+	time modified: 2016-04-25 19:43:17
 	name: Jarvan IV, Exemplar of Demacia
 	casting cost: 2RW
 	image: image54
@@ -1316,7 +1316,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>2W</sym-auto>: <atom-legname><nospellcheck>Jarvan IV</nospellcheck></atom-legname> gains indestructible until end of turn.
+		<sym-auto>2W</sym-auto>: <atom-legname><nospellcheck>Jarvan IV</nospellcheck></atom-legname> gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 		When <atom-legname><nospellcheck>Jarvan IV</nospellcheck></atom-legname> attacks, you may pay <sym-auto>X</sym-auto>. If you do, up to X target creatures block this turn if able.
 	flavor text: <i-flavor>“By my will, this shall be finished.”</i-flavor>
 	power: 4
@@ -1417,7 +1417,7 @@ card:
 	has styling: false
 	notes: AV: 
 	time created: 2016-01-24 01:39:48
-	time modified: 2016-04-11 02:14:59
+	time modified: 2016-04-25 19:44:27
 	name: Kassadin, Void Walker
 	casting cost: 1WUB
 	image: image57
@@ -1426,7 +1426,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>Flash</nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname> enters the battlefield, you may counter target spell. If you counter a <nospellcheck>Voidborn</nospellcheck> spell this way, put two +1/+1 counters on Kassadin.
+		When <atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname> enters the battlefield, you may counter target spell. If you counter a <error-spelling:en_us:/magic.mse-game/magic-words>Voidborn</error-spelling:en_us:/magic.mse-game/magic-words> spell this way, put two +1/+1 counters on <atom-legname><nospellcheck>Kassadin</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -1557,7 +1557,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 16:14:47
-	time modified: 2016-04-11 14:37:14
+	time modified: 2016-04-25 20:19:41
 	name: Kindred, Eternal Hunters
 	casting cost: 3G
 	image: image63
@@ -1565,9 +1565,9 @@ card:
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Damage dealt by creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</kw-0></nospellcheck>.
-		Creatures cannot leave the battlefield during combat. <i-auto>(Creatures dealt lethal damage will remain until after combat. Creature cannot be sacrificed during combat, and players cannot do so as a cost.)</i-auto>
-	flavor text:
+		Damage dealt by creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</nospellcheck></kw-0>.
+		<sym-auto>1G</sym-auto>, <sym-auto>T</sym-auto>: Target creature can’t leave the battlefield this turn. <i-auto>(That creature can’t go from the battlefield to any zone)</i-auto>
+	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
 	custom card number: 
@@ -1731,7 +1731,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 12:19:11
-	time modified: 2016-04-11 14:35:24
+	time modified: 2016-04-25 19:56:30
 	name: Malphite, Shard of the Monolith
 	casting cost: 4R
 	image: image72
@@ -1739,7 +1739,7 @@ card:
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
 		When <atom-legname><nospellcheck>Malphite</nospellcheck></atom-legname> attacks, you may pay <sym-auto>R</sym-auto>. If you do, target creature blocks this turn if able.
 	flavor text: <i-flavor>Caught between a rock and a hard place.</i-flavor>
 	power: 3
@@ -1800,7 +1800,7 @@ card:
 	has styling: false
 	notes: AV: Work on flavour text
 	time created: 2016-01-25 12:39:06
-	time modified: 2016-04-01 02:07:51
+	time modified: 2016-04-25 20:12:32
 	name: Miss Fortune, Bounty Hunter
 	casting cost: 2R
 	image: image75
@@ -1808,9 +1808,9 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		When <atom-legname><nospellcheck>Miss Fortune</nospellcheck></atom-legname> enters the battlefield, choose an opponent.
-		<atom-legname><nospellcheck>Miss Fortune</nospellcheck></atom-legname> gets +3/+3 while attacking chosen opponent if that player controls no creatures.
-	flavor text: <i-flavor>Once she hunts down all your men, she’ll be coming for you.</i-flavor>
+		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
+		When <atom-legname><nospellcheck>Miss Fortune</nospellcheck></atom-legname> attacks, you may pay <sym-auto>1R</sym-auto>. If you do, she deals 1 damage to target creature and 2 damage to another target creature.
+	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 2
 	custom card number: 
@@ -2495,9 +2495,9 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-04-11 01:07:59
+	time modified: 2016-04-25 20:28:12
 	name: Zed, Master of Shadows
-	casting cost: 2WBB
+	casting cost: 2BB
 	image: image106
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -2658,7 +2658,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:01:13
-	time modified: 2016-04-06 22:17:53
+	time modified: 2016-04-25 20:09:01
 	name: Shyvana, Half-Dragon
 	casting cost: 1R
 	image: image112
@@ -2667,7 +2667,7 @@ card:
 	rarity: rare
 	rule text:
 		At the beginning of your upkeep, put a fury counter <atom-legname><nospellcheck>Shyvana</nospellcheck></atom-legname>.
-		<sym-auto>1R</sym-auto>: Transform <atom-legname><nospellcheck>Shyvana</nospellcheck></atom-legname>. Activate this ability only she has four or more fury counters on her.
+		<sym-auto>1R</sym-auto>: Transform <atom-legname><nospellcheck>Shyvana</nospellcheck></atom-legname>. Activate this ability only she has two or more fury counters on her.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -2976,7 +2976,7 @@ card:
 	rarity: rare
 	rule text:
 		At the beginning of your upkeep, put a +1/+1 counter on <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>, then you lose 1 life.
-		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: Varus deals damage equal to his power to target creature.
+		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: <error-spelling:en_us:/magic.mse-game/magic-words>Varus</error-spelling:en_us:/magic.mse-game/magic-words> deals damage equal to his power to target creature.
 	flavor text: <i-flavor>“I’m on borrowed time.”</i-flavor>
 	power: 2
 	toughness: 2
@@ -2989,7 +2989,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 14:21:38
-	time modified: 2016-03-30 15:31:16
+	time modified: 2016-04-25 19:50:22
 	name: Vayne, Night Hunter
 	casting cost: 2W
 	image: image127
@@ -2997,8 +2997,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>First Strike</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> attacks, you may pay 1WW. If you do, exile target creature until <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> leaves the battlefield.
+		<kw-A><nospellcheck>First Strike</nospellcheck><atom-reminder-core> <i-auto>(This creature deals combat damage before creatures without first strike.)</i-auto></atom-reminder-core></kw-A>
+		When <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> attacks, you may pay <sym-auto>2W</sym-auto>. If you do, exile target creature until <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> leaves the battlefield.
 	flavor text: <i-flavor>“Let us hunt those who have fallen to darkness”</i-flavor>
 	power: 3
 	toughness: 2
@@ -3207,7 +3207,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-30 18:18:49
-	time modified: 2016-02-03 23:41:43
+	time modified: 2016-04-25 20:31:50
 	name: Howling Abyss
 	image: image138
 	super type: <word-list-type>Land</word-list-type>
@@ -3216,7 +3216,7 @@ card:
 	rule text:
 		<atom-cardname><nospellcheck>Howling Abyss</nospellcheck></atom-cardname> enters the battlefield tapped.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>R</sym-auto> to your mana pool.
-		<sym-auto>2UR</sym-auto>, <sym-auto>T</sym-auto>: Until end of turn, creatures can't be prevented from blocking. <i-auto>(Creatures effectively lose flying).</i-auto>
+		<sym-auto>2UR</sym-auto>, <sym-auto>T</sym-auto>: Until end of turn, creatures can’t be prevented from blocking.
 	flavor text: <i-flavor></i-flavor>
 	custom card number: 
 	card code text: 
@@ -3355,7 +3355,7 @@ card:
 	rule text:
 		<atom-cardname><nospellcheck>Bandle City</nospellcheck></atom-cardname> enters the battlefield tapped.
 		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>W</sym-auto> to your mana pool.
-		<sym-auto>1GW</sym-auto>, <sym-auto>T</sym-auto>: Put a 1/1 white Yordle creature token onto the battlefield.
+		<sym-auto>1GW</sym-auto>, <sym-auto>T</sym-auto>: Put a 1/1 white <error-spelling:en_us:/magic.mse-game/magic-words>Yordle</error-spelling:en_us:/magic.mse-game/magic-words> creature token onto the battlefield.
 	flavor text: <i-flavor></i-flavor>
 	custom card number: 
 	card code text: 
@@ -3633,7 +3633,7 @@ card:
 	casting cost: 2RR
 	image: image71
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: Elder <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Elder</word-list-race> <word-list-class>Dragon</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
@@ -3685,7 +3685,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-28 20:16:29
-	time modified: 2016-03-30 00:01:29
+	time modified: 2016-04-25 20:22:46
 	name: Baron Nashor
 	casting cost: 4BG
 	image: image154
@@ -3693,7 +3693,7 @@ card:
 	sub type: <word-list-race>Snake</word-list-race> <word-list-class>Horror</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
 		When <atom-legname><nospellcheck>Baron Nashor</nospellcheck></atom-legname> dies, put a +1/+1 counter on each creature your opponents control.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
