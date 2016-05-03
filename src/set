@@ -78,6 +78,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
+	illustrator:
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -483,7 +484,7 @@ card:
 	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		Whenever <atom-cardname><nospellcheck>Amumu, Sad Mummy</nospellcheck></atom-cardname> attacks or blocks, creatures you control gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
+		Whenever <atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> attacks or blocks, creatures you control gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 		<atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> cannot attack or block unless it attacks or blocks alone.
 	flavor text: <i-flavor><error-spelling:en_us>Amumu</error-spelling:en_us> was cursed to be alone until the end.</i-flavor>
 	power: 3
@@ -615,7 +616,7 @@ card:
 	rarity: rare
 	rule text:
 		Whenever <atom-legname><nospellcheck>Braum</nospellcheck></atom-legname> blocks, each other blocking creature get +0/+2 until end of turn.
-		<sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>: Counter target spell that targets a creature you control.
+		<sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>: Counter target spell or ability that targets a creature you control.
 	flavor text: <i-flavor>“Good times, good friends... what could be better?”</i-flavor>
 	power: 1
 	toughness: 4
@@ -749,6 +750,7 @@ card:
 	rule text:
 		At the beginning of each upkeep, if <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has no +1/+1 counters on her, and no spells were cast last turn, put three +1/+1 counters on her.
 		At the beginning of each upkeep, if a player cast two or more spells last turn, remove all +1/+1 counters from <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname>.
+		<atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has lifelink while she has a +1/+1 counter on her.
 	flavor text: <i-flavor>A new moon is rising.</i-flavor>
 	power: 3
 	toughness: 3
@@ -900,8 +902,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
-	illustrator:
-		 Suke Su
+	illustrator: Suke Su
 	copyright: 
 	image 2: 
 	copyright 2: 
