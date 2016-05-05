@@ -78,7 +78,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
-	illustrator:
+	illustrator: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -476,7 +476,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 18:07:11
-	time modified: 2016-03-30 23:57:34
+	time modified: 2016-05-05 16:38:28
 	name: Amumu, Sad Mummy
 	casting cost: 2BR
 	image: image20
@@ -484,7 +484,7 @@ card:
 	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		Whenever <atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> attacks or blocks, creatures you control gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
+		Whenever <atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> attacks or blocks, creatures you control gain <kw-0><nospellcheck>deathtouch</nospellcheck></kw-0> until end of turn.
 		<atom-legname><nospellcheck>Amumu</nospellcheck></atom-legname> cannot attack or block unless it attacks or blocks alone.
 	flavor text: <i-flavor><error-spelling:en_us>Amumu</error-spelling:en_us> was cursed to be alone until the end.</i-flavor>
 	power: 3
@@ -718,10 +718,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 01:15:46
-	time modified: 2016-03-30 14:50:45
+	time modified: 2016-05-05 16:50:49
 	name: Darius, Hand of Noxus
 	casting cost: 3R
-	image: image30
+	image: image167
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -740,7 +740,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-04-11 14:43:00
+	time modified: 2016-05-05 16:39:54
 	name: Diana, Scorn of the Moon
 	casting cost: 2WB
 	image: image31
@@ -750,8 +750,8 @@ card:
 	rule text:
 		At the beginning of each upkeep, if <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has no +1/+1 counters on her, and no spells were cast last turn, put three +1/+1 counters on her.
 		At the beginning of each upkeep, if a player cast two or more spells last turn, remove all +1/+1 counters from <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname>.
-		<atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has lifelink while she has a +1/+1 counter on her.
-	flavor text: <i-flavor>A new moon is rising.</i-flavor>
+		<atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has <kw-0><nospellcheck>lifelink</nospellcheck></kw-0> while she has a +1/+1 counter on her.
+	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
 	custom card number: 
@@ -866,10 +866,10 @@ card:
 	has styling: false
 	notes: NK: Ability seems to cost a lot
 	time created: 2016-01-23 18:37:06
-	time modified: 2016-04-03 22:59:08
+	time modified: 2016-05-05 16:50:30
 	name: Evelynn, Widowmaker
 	casting cost: 4B
-	image: image36
+	image: image166
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Demon</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -910,10 +910,10 @@ card:
 	has styling: false
 	notes: NK: Could be neat to have an ability like "Target creature gets -1/-1 and Fiddlesticks gets +1/+1 until end of turn", but that might be too many abilities
 	time created: 2016-01-23 18:49:10
-	time modified: 2016-04-11 01:38:59
+	time modified: 2016-05-05 16:50:08
 	name: Fiddlesticks, Harbinger of Doom
 	casting cost: 4B
-	image: image39
+	image: image165
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Scarecrow</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1285,7 +1285,7 @@ card:
 	has styling: false
 	notes: AV: Could use some revisions
 	time created: 2016-01-23 23:44:07
-	time modified: 2016-03-30 23:55:06
+	time modified: 2016-05-05 16:32:15
 	name: Janna, Storm’s Fury
 	casting cost: 3UU
 	image: image51
@@ -1298,7 +1298,7 @@ card:
 		<sym-auto>T</sym-auto>: Target creature you control gets +1/+2 until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
-	toughness: 3
+	toughness: 2
 	custom card number: 
 	card code text: 
 	illustrator: Jason Chan
@@ -1395,10 +1395,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:36:59
-	time modified: 2016-04-08 21:42:10
+	time modified: 2016-05-05 16:51:37
 	name: Karthus, Deathsinger
 	casting cost: 2B
-	image: image163
+	image: image168
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1513,10 +1513,10 @@ card:
 		CD: I dont really see a mechanical appeal for kennen. little benefit to untapping him other than to block and he’s not a super strong blocker. might want to rework him.
 		AV: Now trying mana reward instead of untapping him
 	time created: 2016-01-24 15:59:35
-	time modified: 2016-04-11 01:57:02
+	time modified: 2016-05-05 16:49:42
 	name: Kennen, Heart of the Tempest
 	casting cost: 1RG
-	image: image61
+	image: image164
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1755,10 +1755,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 12:19:59
-	time modified: 2016-04-11 01:39:41
+	time modified: 2016-05-05 16:46:19
 	name: Malzahar, Prophet of the Void
 	casting cost: 2B
-	image: image73
+	image: image3
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1801,7 +1801,7 @@ card:
 	has styling: false
 	notes: AV: Work on flavour text
 	time created: 2016-01-25 12:39:06
-	time modified: 2016-04-25 20:12:32
+	time modified: 2016-05-05 16:53:12
 	name: Miss Fortune, Bounty Hunter
 	casting cost: 2R
 	image: image75
@@ -2134,10 +2134,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:33:49
-	time modified: 2016-03-22 16:40:09
+	time modified: 2016-05-05 16:49:08
 	name: Rammus, Armordilio
 	casting cost: 3G
-	image: image89
+	image: image133
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Beast</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2636,10 +2636,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:00:39
-	time modified: 2016-04-11 14:11:00
+	time modified: 2016-05-05 16:48:14
 	name: Taric, Shield of Valoran
 	casting cost: 2W
-	image: image1
+	image: image73
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Avatar</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -2786,10 +2786,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:16:23
-	time modified: 2016-04-03 02:20:52
+	time modified: 2016-05-05 16:48:33
 	name: Swain, Master Tactician
 	casting cost: 4WB
-	image: image117
+	image: image132
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -3101,10 +3101,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:54:02
-	time modified: 2016-04-11 02:46:03
+	time modified: 2016-05-05 16:47:27
 	name: Warwick, Blood Hunter
 	casting cost: 2BG
-	image: image132
+	image: image155
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Werewolf</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -3146,10 +3146,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:57:56
-	time modified: 2016-03-22 21:19:09
+	time modified: 2016-05-05 16:46:58
 	name: Xin Zhao, Seneschai of Demacia
 	casting cost: 2W
-	image: image133
+	image: image120
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -3507,7 +3507,7 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes: am
 	time created: 2016-01-30 20:56:31
 	time modified: 2016-04-03 02:13:20
 	name: Heal
