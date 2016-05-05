@@ -289,7 +289,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 15:04:15
-	time modified: 2016-04-11 01:02:50
+	time modified: 2016-05-05 16:55:04
 	name: Azir, Emperor of the Sands
 	casting cost: 3W
 	image: image12
@@ -297,7 +297,7 @@ card:
 	sub type: <word-list-race>Ascendant</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		At the end of your turn, if you control less than two Soldiers, put a 1/1 white Soldier creature token onto the battlefield.
+		At the end of your turn, put a 1/1 white Soldier creature token onto the battlefield.
 		<sym-auto>1WW</sym-auto>: Soldier creatures you control get +2/+0 until end of turn. Activate this ability only once per turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
@@ -432,7 +432,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 17:32:28
-	time modified: 2016-04-11 14:36:27
+	time modified: 2016-05-05 16:54:44
+	border color: rgb(200,180,0)
 	name: Akali, Fist of Shadow
 	casting cost: 2G
 	image: image19
@@ -764,7 +765,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 16:02:14
-	time modified: 2016-03-30 23:58:33
+	time modified: 2016-05-05 17:09:13
 	name: Dr. Mundo, Madman of Zaun
 	casting cost: 2RG
 	image: image32
@@ -772,7 +773,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Mutant</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		<atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname> enters the battlefield with two +1/+1 counters on him.
+		<atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname> enters the battlefield with three +1/+1 counters on him.
 		At the beginning of your upkeep, put a +1/+1 counter on <atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname>.
 		Remove a +1/+1 counter from <atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname>: Target creature blocks this turn if able.
 	flavor text: <i-flavor></i-flavor>
@@ -1173,7 +1174,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 23:23:35
-	time modified: 2016-03-30 13:38:15
+	time modified: 2016-05-05 16:59:45
 	name: Heimerdinger, Revered Inventor
 	casting cost: 2U
 	image: image46
@@ -1182,7 +1183,7 @@ card:
 	rarity: rare
 	rule text:
 		Artifact creatures you control have +1/+1.
-		<sym-auto>1U</sym-auto>, <sym-auto>T</sym-auto>: Put a 0/1 blue turret artifact creature token with <kw-0><nospellcheck>defender</nospellcheck></kw-0> onto the battlefield.
+		<sym-auto>1U</sym-auto>, <sym-auto>T</sym-auto>: Put a 0/1 Turret artifact creature token with <kw-0><nospellcheck>defender</nospellcheck></kw-0> onto the battlefield.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
@@ -1441,7 +1442,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:43:24
-	time modified: 2016-03-31 18:41:19
+	time modified: 2016-05-05 17:11:00
 	name: Katarina, Sinister Blade
 	casting cost: 2RW
 	image: image58
@@ -1449,7 +1450,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>R/W</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> deals 1 damage to up to two target creatures.
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> deals 1 damage to up to two target creatures.
 		Whenever a creature you don’t control dies, untap <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname>.
 	flavor text: <i-flavor>“The dance of blades.”</i-flavor>
 	power: 3
@@ -1488,7 +1489,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-04-03 01:56:30
+	time modified: 2016-05-05 17:12:11
+	border color: rgb(200,180,0)
 	name: Morgana, Fallen Angel
 	casting cost: 1BR
 	image: image60
@@ -1580,7 +1582,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 19:56:44
-	time modified: 2016-04-11 02:02:14
+	time modified: 2016-05-05 17:11:35
+	border color: rgb(200,180,0)
 	name: Kog'Maw, Mouth of the Abyss
 	casting cost: 2BG
 	image: image64
@@ -1777,9 +1780,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 12:29:24
-	time modified: 2016-03-30 14:13:41
+	time modified: 2016-05-05 17:12:00
 	name: Master Yi, Wuju Bladesman
-	casting cost: 1GW
+	casting cost: 2GW
 	image: image74
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -1801,7 +1804,8 @@ card:
 	has styling: false
 	notes: AV: Work on flavour text
 	time created: 2016-01-25 12:39:06
-	time modified: 2016-05-05 16:53:12
+	time modified: 2016-05-05 17:04:50
+	border color: rgb(200,180,0)
 	name: Miss Fortune, Bounty Hunter
 	casting cost: 2R
 	image: image75
@@ -1824,14 +1828,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 12:45:56
-	time modified: 2016-04-04 22:46:14
+	time modified: 2016-05-05 17:01:24
 	name: Mordekaiser, Iron Revenant
 	casting cost: 3BB
 	image: image76
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <sym-auto>1B</sym-auto>: The next time target creature dies this turn, return it to the battlefield under your control until the next time you activate this ability or <atom-legname><nospellcheck>Mordekaiser</nospellcheck></atom-legname> dies.
+	rule text:
+		
+		<sym-auto>1B</sym-auto>: The next time target creature dies this turn, return it to the battlefield under your control until the next time you activate this ability or <atom-legname><nospellcheck>Mordekaiser</nospellcheck></atom-legname> leaves the battlefield.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -1965,7 +1971,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 13:30:29
-	time modified: 2016-04-11 02:38:34
+	time modified: 2016-05-05 17:12:20
+	border color: rgb(200,180,0)
 	name: Nunu, Yeti Rider
 	casting cost: 1UR
 	image: image5
@@ -2180,7 +2187,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:42:10
-	time modified: 2016-04-11 14:46:13
+	time modified: 2016-05-05 17:12:36
 	name: Renekton, Butcher of the Sands
 	casting cost: 2BR
 	image: image91
@@ -2249,7 +2256,7 @@ card:
 	has styling: false
 	notes: AV: Lots of lines. Is there a way to clean him up?
 	time created: 2016-01-25 14:58:15
-	time modified: 2016-04-04 22:58:09
+	time modified: 2016-05-05 17:13:35
 	name: Rumble, Mechanized Menace
 	casting cost: 2UR
 	image: image95
@@ -2259,7 +2266,7 @@ card:
 	rule text:
 		Whenever you cast a spell, put a heat counters on <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
 		While <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> has two or more heat counters you can’t cast spells and creatures you control have +2/+2.
-		At the end of each turn, remove a heat counters from <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
+		At the beginning of your upkeep, remove all heat counters from <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -2313,7 +2320,8 @@ card:
 	has styling: false
 	notes: OT: You could do shaco like Loki, where you dont know which is morph and which is real (also typo)
 	time created: 2016-01-25 15:10:24
-	time modified: 2016-04-02 01:30:51
+	time modified: 2016-05-05 17:13:47
+	border color: rgb(200,180,0)
 	name: Shaco, Demon Jester
 	casting cost: 1BR
 	image: image98
@@ -2359,7 +2367,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 15:39:26
-	time modified: 2016-03-30 00:21:33
+	time modified: 2016-05-05 17:14:57
 	name: Urgot, Headsman’s Pride
 	casting cost: 2BG
 	image: image100
@@ -2368,7 +2376,7 @@ card:
 	rarity: rare
 	rule text:
 		<sym-auto>1G</sym-auto>: <atom-cardname><nospellcheck>Urgot, Headsman’s Pride</nospellcheck></atom-cardname> gets +2/+2 until end of turn. Activate this ability only once per turn.
-		<sym-auto>1B</sym-auto>, Sacrifice a creature or artifact: Return <atom-legname><nospellcheck>Urgot</nospellcheck></atom-legname> from the graveyard to the battlefield.
+		<sym-auto>1B</sym-auto>, Sacrifice a creature or artifact: Return <atom-legname><nospellcheck>Urgot</nospellcheck></atom-legname> from the graveyard to the battlefield tapped.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 4
@@ -2449,7 +2457,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 17:31:12
-	time modified: 2016-04-11 01:03:20
+	time modified: 2016-05-05 17:17:08
+	border color: rgb(200,180,0)
 	name: Xerath, Magus Ascendant
 	casting cost: XUUBB
 	image: image104
@@ -2473,7 +2482,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 18:01:50
-	time modified: 2016-03-29 23:44:00
+	time modified: 2016-05-05 17:17:37
+	border color: rgb(200,180,0)
 	name: Zyra, Rise of the Thorns
 	casting cost: 2RG
 	image: image105
@@ -2496,7 +2506,8 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-04-25 20:28:12
+	time modified: 2016-05-05 17:04:17
+	border color: rgb(200,180,0)
 	name: Zed, Master of Shadows
 	casting cost: 2BB
 	image: image106
@@ -2613,7 +2624,8 @@ card:
 	has styling: false
 	notes: AV: Needs a fix
 	time created: 2016-01-26 00:58:38
-	time modified: 2016-03-30 13:44:31
+	time modified: 2016-05-05 17:03:56
+	border color: rgb(200,180,0)
 	name: Sion, Undead Juggernaut
 	casting cost: 4B
 	image: image111
@@ -2622,6 +2634,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>Undying</nospellcheck></kw-0>
+		<kw-0><nospellcheck>Unearth <param-cost><sym-auto>2B</sym-auto></param-cost></nospellcheck></kw-0>
 		When <atom-legname><nospellcheck>Sion</nospellcheck></atom-legname> attacks or blocks, if he had a +1/+1 counter on him, he gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> and “sacrifice this creature at the end of combat”.
 	flavor text: <i-flavor></i-flavor>
 	power: 5
@@ -2636,7 +2649,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:00:39
-	time modified: 2016-05-05 16:48:14
+	time modified: 2016-05-05 16:57:23
 	name: Taric, Shield of Valoran
 	casting cost: 2W
 	image: image73
@@ -2646,7 +2659,7 @@ card:
 	rule text:
 		<kw-0><nospellcheck>Soulbond</nospellcheck></kw-0>
 		<sym-auto>5W</sym-auto>: <atom-legname><nospellcheck>Taric</nospellcheck></atom-legname> and paired creature gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
-	flavor text: <i-flavor></i-flavor>
+	flavor text: <i-flavor>“That glimmer of hope you see, that’s me.”</i-flavor>
 	power: 1
 	toughness: 4
 	custom card number: 
@@ -2718,7 +2731,8 @@ card:
 	has styling: false
 	notes: AV: Maybe wait for rework?
 	time created: 2016-01-26 01:10:34
-	time modified: 2016-04-11 14:16:48
+	time modified: 2016-05-05 17:00:40
+	border color: rgb(200,180,0)
 	name: Cassiopeia, Serpent’s Embrace
 	casting cost: 3B
 	image: image114
@@ -2829,7 +2843,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:02:02
-	time modified: 2016-04-11 01:44:00
+	time modified: 2016-05-05 17:04:05
+	border color: rgb(200,180,0)
 	name: Talon, Blade’s Shadow
 	casting cost: 3B
 	image: image119
@@ -2851,7 +2866,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-04-02 02:17:24
+	time modified: 2016-05-05 17:05:40
+	border color: rgb(200,180,0)
 	name: Tristana, Yordle Gunner
 	casting cost: 1R
 	image: image121
@@ -2990,7 +3006,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 14:21:38
-	time modified: 2016-04-25 19:50:22
+	time modified: 2016-05-05 16:57:37
 	name: Vayne, Night Hunter
 	casting cost: 2W
 	image: image127
@@ -2998,7 +3014,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-A><nospellcheck>First Strike</nospellcheck><atom-reminder-core> <i-auto>(This creature deals combat damage before creatures without first strike.)</i-auto></atom-reminder-core></kw-A>
+		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
 		When <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> attacks, you may pay <sym-auto>2W</sym-auto>. If you do, exile target creature until <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> leaves the battlefield.
 	flavor text: <i-flavor>“Let us hunt those who have fallen to darkness”</i-flavor>
 	power: 3
@@ -3056,7 +3072,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-03-30 15:46:55
+	time modified: 2016-05-05 17:16:32
+	border color: rgb(200,180,0)
 	name: Vladimir, Crimson Reaper
 	casting cost: 2BR
 	image: image130
@@ -3427,7 +3444,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-30 20:53:44
-	time modified: 2016-04-03 02:12:44
+	time modified: 2016-05-05 16:55:27
 	name: Cleanse
 	casting cost: 1W
 	image: image153
@@ -3435,7 +3452,7 @@ card:
 	sub type: <word-list-spell>Summoner</word-list-spell><soft> </soft><word-list-spell></word-list-spell>
 	rarity: uncommon
 	rule text:
-		Untap target creature and remove all counter from it.
+		Untap target creature and remove all counters from that creature.
 		Return <atom-cardname><nospellcheck>Cleanse</nospellcheck></atom-cardname> to your hand. You may not cast Summoner spells until the beginning of your next turn.
 	flavor text: <i-flavor></i-flavor>
 	custom card number: 
@@ -3551,7 +3568,7 @@ card:
 		CD: Needs a rework; not flashy
 		AV: Trying new design
 	time created: 2016-02-01 15:24:54
-	time modified: 2016-04-03 01:50:42
+	time modified: 2016-05-05 17:10:24
 	name: Jhin, Virtuoso
 	casting cost: 2BR
 	image: image136
@@ -3709,7 +3726,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-28 20:18:48
-	time modified: 2016-03-30 14:41:41
+	time modified: 2016-05-05 17:04:33
+	border color: rgb(200,180,0)
 	name: Dragon
 	casting cost: 2RR
 	image: image152
@@ -3844,6 +3862,24 @@ card:
 	sub type: <word-list-artifact>Barrel</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
 	rule text: Tap this artifact: It deals 1 damage to target creature and that creature gets +1/+0 until end of turn.
 	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2016-05-05 17:05:52
+	time modified: 2016-05-05 17:07:36
+	border color: rgb(200,180,0)
+	name: Taliyah, Stoneweaver
+	casting cost: 1RW
+	image: image1
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
