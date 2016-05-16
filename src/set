@@ -110,8 +110,9 @@ card:
 		AV: CD pointed out design flaw; effectively makes them unblockable from math. Looking for new design (still with soulbound).
 		AV: Now triggers off being target instead of damage.
 		AV: Trying new design with a bit more narrow but more flavourful interaction. Narrowness solveable by deckbuilding
+		AV: Doesn’t really have anything red about it.
 	time created: 2016-01-22 14:18:08
-	time modified: 2016-04-11 01:52:16
+	time modified: 2016-05-16 12:24:07
 	name: Kalista, Spear of Vengeance
 	casting cost: 1WBR
 	image: image4
@@ -120,7 +121,7 @@ card:
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
-		Whenever an opponent sacrifices a creature, you may return that creature to the battlefield under your control. It’s a Spirit in addition to it’s other types.
+		Whenever an opponent sacrifices a creature, you may return that creature to the battlefield under your control. It’s a Spirit in addition to it’s other types and gains <kw-0><nospellcheck>haste</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: none
 	power: 3
@@ -135,7 +136,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 14:25:19
-	time modified: 2016-03-30 14:57:30
+	time modified: 2016-05-16 12:22:08
 	name: Jinx, Loose Cannon
 	casting cost: 1BR
 	image: image48
@@ -144,7 +145,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
-		Whenever a creature dealt damage by <atom-legname><nospellcheck>Jinx</nospellcheck></atom-legname> this turn dies, you may have her deal damage equal to her power to that creature’s controller.
+		Whenever <atom-legname><nospellcheck>Jinx</nospellcheck></atom-legname> deals damage to a player, you may discard a card. If you do, she deals damage equal to her power to target creature or player.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 1
@@ -221,7 +222,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 14:51:14
-	time modified: 2016-04-11 02:51:55
+	time modified: 2016-05-07 21:16:32
 	name: Zilean, Chronokeeper
 	casting cost: 2WU
 	image: image8
@@ -229,7 +230,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		At the beginning of your upkeep <kw-0><nospellcheck>scry <param-number>1</param-number></nospellcheck></kw-0>. If you put a card on the bottom while <error-spelling:en_us:/magic.mse-game/magic-words>scrying</error-spelling:en_us:/magic.mse-game/magic-words>, put a time counter on <atom-legname><nospellcheck>Zilean</nospellcheck></atom-legname>.
+		Whenever you scry, put time counter on <atom-legname><nospellcheck>Zilean</nospellcheck></atom-legname>.
 		<sym-auto>WU</sym-auto>, Remove two time counters from <atom-legname><nospellcheck>Zilean</nospellcheck></atom-legname>: If target creature dies this turn, return it to the battlefield under its owner’s control.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
@@ -328,7 +329,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 15:45:31
-	time modified: 2016-04-11 01:46:29
+	time modified: 2016-05-08 17:38:41
 	name: Veigar, Tiny Master of Evil
 	casting cost: 2B
 	image: image16
@@ -336,7 +337,7 @@ card:
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text: <sym-auto>2BB</sym-auto>, <sym-auto>T</sym-auto>: Destroy target creature if you control no creatures with power equal to or greater than that creature.
-	flavor text: <i-flavor>“You deny the darkness in your soul! You deny your power!”</i-flavor>
+	flavor text: <i-flavor>“I will swallow your soul.”</i-flavor>
 	power: 2
 	toughness: 2
 	custom card number: 
@@ -432,8 +433,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 17:32:28
-	time modified: 2016-05-05 16:54:44
-	border color: rgb(200,180,0)
+	time modified: 2016-05-07 21:43:47
+	border color: rgb(255,255,255)
 	name: Akali, Fist of Shadow
 	casting cost: 2G
 	image: image19
@@ -1489,20 +1490,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-05-05 17:12:11
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 12:48:25
+	border color: rgb(255,255,255)
 	name: Morgana, Fallen Angel
-	casting cost: 1BR
+	casting cost: 2BR
 	image: image60
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Angel</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Angel</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text:
-		<atom-legname><nospellcheck>Morgana</nospellcheck></atom-legname> gets +2/+2 while an opponent controls a white permanent.
-		Pay 1 life: Target creature get -1/-1 until end of turn. Activate this ability only once per turn.
+	rule text: Whenever a creature you control blocks, you may pay <sym-auto>BR</sym-auto>. If you do, that creature gets +1/+1 until end of turn and <atom-legname><nospellcheck>Morgana</nospellcheck></atom-legname> deals 1 damage to an attacking player.
 	flavor text: <i-flavor>“There is no rest while Kayle’s brand of tyranny still exists.”</i-flavor>
-	power: 3
-	toughness: 3
+	power: 1
+	toughness: 4
 	custom card number: 
 	card code text: 
 	illustrator: Jason Chan
@@ -1582,15 +1581,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 19:56:44
-	time modified: 2016-05-05 17:11:35
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 12:27:49
+	border color: rgb(255,255,255)
 	name: Kog'Maw, Mouth of the Abyss
 	casting cost: 2BG
 	image: image64
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Voidborn</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: At the beginning of your upkeep, pay <sym-auto>BG</sym-auto> or exile a permanent you control. Then put two +1/+1 counter on <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname>.
+	rule text: At the beginning of your upkeep, sacrifice a permanent. Then put a +1/+1 counter on <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname>.
 	flavor text: <i-flavor>“If that’s just hungry, I don’t want to see angry.”</i-flavor>
 	power: 2
 	toughness: 1
@@ -1804,8 +1803,8 @@ card:
 	has styling: false
 	notes: AV: Work on flavour text
 	time created: 2016-01-25 12:39:06
-	time modified: 2016-05-05 17:04:50
-	border color: rgb(200,180,0)
+	time modified: 2016-05-07 21:44:17
+	border color: rgb(255,255,255)
 	name: Miss Fortune, Bounty Hunter
 	casting cost: 2R
 	image: image75
@@ -1814,8 +1813,8 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Miss Fortune</nospellcheck></atom-legname> attacks, you may pay <sym-auto>1R</sym-auto>. If you do, she deals 1 damage to target creature and 2 damage to another target creature.
-	flavor text: <i-flavor></i-flavor>
+		Whenever a creature <atom-legname><nospellcheck>Miss Fortune</nospellcheck></atom-legname> dealt damage to this turn dies, exile the top card of your library. You may cast that card until end of turn.
+	flavor text: <i-flavor>“I always shoot first.”</i-flavor>
 	power: 3
 	toughness: 2
 	custom card number: 
@@ -1971,17 +1970,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 13:30:29
-	time modified: 2016-05-05 17:12:20
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 14:46:59
+	border color: rgb(255,255,255)
 	name: Nunu, Yeti Rider
-	casting cost: 1UR
+	casting cost: 2R
 	image: image5
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		When <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> enters the battlefield, put a 4/4 legendary blue and red Yeti creature token with <kw-0><nospellcheck>trample</nospellcheck></kw-0> and <kw-0><nospellcheck>defender</nospellcheck></kw-0> named <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words> unto the battlefield.
-		<error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words> may attack as though he didn’t have <kw-0><nospellcheck>defender</nospellcheck></kw-0>.
+		When <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> enters the battlefield, put a 4/4 red Yeti creature token with <kw-0><nospellcheck>trample</nospellcheck></kw-0> named <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words> onto the battlefield.
+		When <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> or a creature you control named <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words> dies, sacrifice all creatures you control named <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> or <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words>.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
@@ -2320,19 +2319,17 @@ card:
 	has styling: false
 	notes: OT: You could do shaco like Loki, where you dont know which is morph and which is real (also typo)
 	time created: 2016-01-25 15:10:24
-	time modified: 2016-05-05 17:13:47
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 12:25:23
+	border color: rgb(255,255,255)
 	name: Shaco, Demon Jester
 	casting cost: 1BR
 	image: image98
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text:
-		At the end of your turn, if you control no creatures named “<error-spelling:en_us:/magic.mse-game/magic-words>Shaco</error-spelling:en_us:/magic.mse-game/magic-words> Clone,” put a 1/1 black and red illusion creature on the battlefield named <error-spelling:en_us:/magic.mse-game/magic-words>Shaco</error-spelling:en_us:/magic.mse-game/magic-words> Clone.
-		When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, target creature can’t block this turn.
+	rule text: When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, exile him and the top card of your library face down in a pile. Shuffle that pile, then put each card onto the battlefield face down tapped and attacking. At the end of combat, exile them <i-auto>(face up)</i-auto>, then return <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> to the battlefield tapped. <i-auto>(Face down cards on the battlefield are 2/2 colorless creature.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
-	power: 2
+	power: 4
 	toughness: 2
 	custom card number: 
 	card code text: 
@@ -2457,21 +2454,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 17:31:12
-	time modified: 2016-05-05 17:17:08
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 12:11:29
+	border color: rgb(255,255,255)
 	name: Xerath, Magus Ascendant
-	casting cost: XUUBB
+	casting cost: 2UB
 	image: image104
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Ascendant</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<atom-legname><nospellcheck>Xerath</nospellcheck></atom-legname> enters the battlefield with X +1/+1 counters on him.
-		<sym-auto>1B</sym-auto>: <atom-legname><nospellcheck>Xerath</nospellcheck></atom-legname> gets +2/+2 until end of turn.
-		<sym-auto>1U</sym-auto>: Draw a card. Activate this ability only if <atom-legname><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Xerath</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power is 8 or more and only once per turn.
+		<sym-auto>B</sym-auto>: Move a +1/+1 counter from another creature onto <atom-legname><nospellcheck>Xerath</nospellcheck></atom-legname>.
+		<sym-auto>U</sym-auto>: Charge one target of target spell to <atom-legname><nospellcheck>Xerath</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
-	power: 0
-	toughness: 0
+	power: 3
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Michal Ivan
@@ -2482,20 +2478,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 18:01:50
-	time modified: 2016-05-05 17:17:37
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 12:18:42
+	border color: rgb(255,255,255)
 	name: Zyra, Rise of the Thorns
-	casting cost: 2RG
+	casting cost: 1RG
 	image: image105
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Plant</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
+	rarity: mythic rare
 	rule text:
-		At the beginning of your upkeep you may put a 1/1 green plant token onto the battlefield.
-		When <atom-cardname><nospellcheck>Zyra, Rise of the Thorns</nospellcheck></atom-cardname> dies or another Plant you control dies, you may have <atom-legname><nospellcheck>Zyra</nospellcheck></atom-legname> deal 1 damage to target creature or player.
+		At the beginning of your upkeep you may put a 0/1 green plant token onto the battlefield.
+		<sym-auto>G</sym-auto>: Target Plant has base power and toughness 3/3 until end of turn.
 	flavor text: <i-flavor></i-flavor>
-	power: 3
-	toughness: 3
+	power: 2
+	toughness: 2
 	custom card number: 
 	card code text: 
 	illustrator: Katie De Sousa
@@ -2506,8 +2502,8 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-05-05 17:04:17
-	border color: rgb(200,180,0)
+	time modified: 2016-05-07 21:43:55
+	border color: rgb(255,255,255)
 	name: Zed, Master of Shadows
 	casting cost: 2BB
 	image: image106
@@ -2515,8 +2511,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		At the end of your turn, you may put a 2/2 legendary black Shade Ninja creature token named Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0>.
-		<sym-auto>B</sym-auto>: Until of turn, any damage that would be dealt to <atom-cardname><nospellcheck>Zed, Master of Shadows</nospellcheck></atom-cardname> or Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0> is dealt to the other instead.
+		At the end of your turn, you may put a 0/2 legendary black Shade Ninja creature token named Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0>.
+		<sym-auto>B</sym-auto>: Change the target of each spell or ability targeting <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> to a creature you control named “Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0>” and change the target of each spell or ability targeting that creature to <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 2
@@ -2530,7 +2526,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 18:13:10
-	time modified: 2016-03-29 23:43:53
+	time modified: 2016-05-07 21:39:07
 	name: Syndra, Dark Sovereign
 	casting cost: 2UB
 	image: image107
@@ -2538,11 +2534,11 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<atom-cardname><nospellcheck>Syndra, Dark Sovereign</nospellcheck></atom-cardname>’s power is equal to the number of cards in your hand.
+		<atom-cardname><nospellcheck>Syndra, Dark Sovereign</nospellcheck></atom-cardname>’s power and toughness are each equal to the number of cards in your hand.
 		At the beginning of your upkeep, draw a card and lose 2 life.
 	flavor text: <i-flavor></i-flavor>
 	power: *
-	toughness: 3
+	toughness: *
 	custom card number: 
 	card code text: 
 	illustrator: Katie De Sousa
@@ -2624,8 +2620,8 @@ card:
 	has styling: false
 	notes: AV: Needs a fix
 	time created: 2016-01-26 00:58:38
-	time modified: 2016-05-05 17:03:56
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 11:46:32
+	border color: rgb(255,255,255)
 	name: Sion, Undead Juggernaut
 	casting cost: 4B
 	image: image111
@@ -2633,9 +2629,8 @@ card:
 	sub type: <word-list-race>Zombie</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-0><nospellcheck>Undying</nospellcheck></kw-0>
-		<kw-0><nospellcheck>Unearth <param-cost><sym-auto>2B</sym-auto></param-cost></nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Sion</nospellcheck></atom-legname> attacks or blocks, if he had a +1/+1 counter on him, he gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> and “sacrifice this creature at the end of combat”.
+		When <atom-legname><nospellcheck>Sion</nospellcheck></atom-legname> enters the battlefield, creatures you control gain <kw-0><nospellcheck>menace</nospellcheck></kw-0> until end of turn.
+		<kw-A><nospellcheck>Unearth <param-cost><sym-auto>3B</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(<param-cost><sym-auto>3B</sym-auto></param-cost>: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
 	flavor text: <i-flavor></i-flavor>
 	power: 5
 	toughness: 4
@@ -2731,8 +2726,7 @@ card:
 	has styling: false
 	notes: AV: Maybe wait for rework?
 	time created: 2016-01-26 01:10:34
-	time modified: 2016-05-05 17:00:40
-	border color: rgb(200,180,0)
+	time modified: 2016-05-07 00:37:35
 	name: Cassiopeia, Serpent’s Embrace
 	casting cost: 3B
 	image: image114
@@ -2800,7 +2794,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:16:23
-	time modified: 2016-05-05 16:48:33
+	time modified: 2016-05-07 21:40:51
 	name: Swain, Master Tactician
 	casting cost: 4WB
 	image: image132
@@ -2808,8 +2802,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Whenever a creature an opponent controls attacks or blocks, you may gain 2 life.
-		Whenever a creature you control attacks or blocks, you may draw a card and lose 3 life.
+		Whenever a creature an opponent controls attacks or blocks, gain 2 life.
+		Whenever a creature you control attacks or blocks, draw a card and lose 3 life.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -2843,20 +2837,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:02:02
-	time modified: 2016-05-05 17:04:05
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 14:48:01
+	border color: rgb(255,255,255)
 	name: Talon, Blade’s Shadow
-	casting cost: 3B
+	casting cost: 2B
 	image: image119
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
-		Talon has +2/+0 while blocking or being blocked by a tapped creature.
+		Talon enters the battlefield with a +1/+1 counter for each tapped creature you don’t control.
 	flavor text: <i-flavor>“This is no challenge.”</i-flavor>
-	power: 3
-	toughness: 2
+	power: 2
+	toughness: 1
 	custom card number: 
 	card code text: 
 	copyright: 
@@ -2866,8 +2860,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-05-05 17:05:40
-	border color: rgb(200,180,0)
+	time modified: 2016-05-07 21:43:59
+	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
 	casting cost: 1R
 	image: image121
@@ -3072,8 +3066,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-05-05 17:16:32
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 11:47:19
+	border color: rgb(255,255,255)
 	name: Vladimir, Crimson Reaper
 	casting cost: 2BR
 	image: image130
@@ -3081,8 +3075,8 @@ card:
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
-		<sym-auto>2R</sym-auto>: Deal 1 damage to <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> and target creature.
+		<sym-auto>B</sym-auto>: Vladimir gets -1/-1 until end of turn. You gain 1 life.
+		<sym-auto>R</sym-auto>, Pay 1 life: <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> deals 1 damage to target creature.
 	flavor text: <i-flavor>“The rivers will run red.”</i-flavor>
 	power: 3
 	toughness: 3
@@ -3700,10 +3694,11 @@ card:
 	illustrator 2: Jason Chan
 	copyright 2: 
 card:
+	stylesheet: m15-doublefaced
 	has styling: false
 	notes: 
 	time created: 2016-03-28 20:16:29
-	time modified: 2016-04-25 20:22:46
+	time modified: 2016-05-07 00:56:15
 	name: Baron Nashor
 	casting cost: 4BG
 	image: image154
@@ -3712,39 +3707,22 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Baron Nashor</nospellcheck></atom-legname> dies, put a +1/+1 counter on each creature your opponents control.
+		When <atom-cardname><nospellcheck>Baron Nashor</nospellcheck></atom-cardname> enters the battlefield, target opponent gains control of it.
+		When <atom-cardname><nospellcheck>Baron Nashor</nospellcheck></atom-cardname> dies, exile it then return it transformed under it’s owners control.
 	flavor text: <i-flavor></i-flavor>
-	power: 10
-	toughness: 10
+	power: 8
+	toughness: 8
 	custom card number: 
 	card code text: 
 	illustrator: Suke Su
 	copyright: 
+	card color 2: black, green, multicolor, horizontal
+	name 2: Hand of Baron
 	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2016-03-28 20:18:48
-	time modified: 2016-05-05 17:04:33
-	border color: rgb(200,180,0)
-	name: Dragon
-	casting cost: 2RR
-	image: image152
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Dragon</nospellcheck></atom-legname> dies, target opponent may put a +1/+1 counter on up to two creatures they control.
-	flavor text: <i-flavor></i-flavor>
-	power: 5
-	toughness: 5
-	custom card number: 
-	card code text: 
-	illustrator: Cesar Rosolino & Mike Azevedo
-	copyright: 
-	image 2: 
+	super type 2: <word-list-type>Enchantment</word-list-type>
+	sub type 2: <word-list-enchantment></word-list-enchantment>
+	rule text 2: Creature you control get +3/+3 and have <kw-0><nospellcheck>trample</nospellcheck></kw-0> and <kw-0><nospellcheck>deathtouch</nospellcheck></kw-0>. <i-auto>(A creature with <kw-0><nospellcheck>deathtouch</nospellcheck></kw-0> and <kw-0><nospellcheck>trample</nospellcheck></kw-0> may choose to assign only 1 damage to each blocking creature.)</i-auto>
+	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	stylesheet: m15-token
@@ -3814,14 +3792,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-30 23:39:56
-	time modified: 2016-03-30 23:46:35
-	card color: blue, red, multicolor, horizontal
+	time modified: 2016-05-16 14:47:05
+	border color: rgb(255,255,255)
+	card color: red
 	name: Willump
 	image: image160
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yeti</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+	rule text: <kw-a><nospellcheck>Trample</nospellcheck></kw-a>
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -3836,7 +3815,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-04-11 01:06:50
-	time modified: 2016-04-11 01:07:38
+	time modified: 2016-05-07 21:09:29
 	card color: black
 	name: Zed’s Shadow
 	image: 
@@ -3844,7 +3823,7 @@ card:
 	sub type: <word-list-race>Shade</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: 
 	flavor text: <i-flavor></i-flavor>
-	power: 2
+	power: 0
 	toughness: 2
 	card code text: 
 	copyright: 
@@ -3870,19 +3849,187 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-05-05 17:05:52
-	time modified: 2016-05-05 17:07:36
-	border color: rgb(200,180,0)
+	time modified: 2016-05-16 16:59:31
+	border color: rgb(255,255,255)
 	name: Taliyah, Stoneweaver
-	casting cost: 1RW
+	casting cost: 3RW
 	image: image1
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	power: 2
-	toughness: 2
+	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Taliyah</nospellcheck></atom-legname> attacks, put all creatures defending player controls into two piles. Then the defending player chooses one of those piles. Creatures in the other pile cannot block this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
+	copyright 2: 
+card:
+	stylesheet: m15-doublefaced
+	has styling: false
+	notes: 
+	time created: 2016-05-07 00:37:41
+	time modified: 2016-05-07 00:43:51
+	name: Ocean Drake
+	casting cost: 1WU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Ocean Drake</nospellcheck></atom-legname> enters the battlefield, target opponent gains control of it.
+		When <atom-legname><nospellcheck>Ocean Drake</nospellcheck></atom-legname> dies, exile it then return it transformed under it’s owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	copyright: 
+	card color 2: white, blue, multicolor, horizontal
+	name 2: Heart Of Oceans
+	type symbol 2: enchantment
+	image 2: 
+	super type 2: <word-list-type>Enchantment</word-list-type>
+	sub type 2: <word-list-enchantment></word-list-enchantment>
+	indicator 2: white, blue, multicolor, horizontal
+	rule text 2:
+		Creatures you control have +0/+2.
+		At the beginning of your upkeep, you may draw a card and gain 2 life.
+	flavor text 2: <i-flavor></i-flavor>
+	copyright 2: 
+card:
+	stylesheet: m15-doublefaced
+	has styling: false
+	notes: 
+	time created: 2016-05-07 00:37:41
+	time modified: 2016-05-07 00:46:09
+	name: Cloud Drake
+	casting cost: 1UR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Cloud Drake</nospellcheck></atom-legname> enters the battlefield, target opponent gains control of it.
+		When <atom-legname><nospellcheck>Cloud Drake</nospellcheck></atom-legname> dies, exile it then return it transformed under it’s owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	copyright: 
+	card color 2: blue, red, multicolor, horizontal
+	name 2: Stratus Walk
+	type symbol 2: enchantment
+	image 2: 
+	super type 2: <word-list-type>Enchantment</word-list-type>
+	sub type 2: <word-list-enchantment></word-list-enchantment>
+	indicator 2: blue, red, multicolor, horizontal
+	rule text 2:
+		Creatures you control have <kw-0><nospellcheck>first strike</nospellcheck></kw-0>.
+		At the beginning of combat on your turn, target creature you control gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> until end of turn.
+	flavor text 2: <i-flavor></i-flavor>
+	copyright 2: 
+card:
+	stylesheet: m15-doublefaced
+	has styling: false
+	notes: 
+	time created: 2016-05-07 00:37:41
+	time modified: 2016-05-07 00:48:41
+	name: Infernal Drake
+	casting cost: 1BR
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Infernal Drake</nospellcheck></atom-legname> enters the battlefield, target opponent gains control of it.
+		When <atom-legname><nospellcheck>Infernal Drake</nospellcheck></atom-legname> dies, exile it then return it transformed under it’s owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	copyright: 
+	card color 2: black, red, multicolor, horizontal
+	name 2: Infernal Tribute
+	type symbol 2: enchantment
+	image 2: 
+	super type 2: <word-list-type>Enchantment</word-list-type>
+	sub type 2: <word-list-enchantment></word-list-enchantment>
+	indicator 2: black, red, multicolor, horizontal
+	rule text 2:
+		Creatures you control have +2/+0.
+		<sym-auto>1</sym-auto>, Tap an untapped creature you control: <atom-cardname><nospellcheck>Infernal Tribute</nospellcheck></atom-cardname> deals 2 damage to target creature.
+	flavor text 2: <i-flavor></i-flavor>
+	copyright 2: 
+card:
+	stylesheet: m15-doublefaced
+	has styling: false
+	notes: 
+	time created: 2016-05-07 00:37:41
+	time modified: 2016-05-07 00:50:03
+	name: Mountain Drake
+	casting cost: 1RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Mountain Drake</nospellcheck></atom-legname> enters the battlefield, target opponent gains control of it.
+		When <atom-legname><nospellcheck>Mountain Drake</nospellcheck></atom-legname> dies, exile it then return it transformed under it’s owners control.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
+	card code text: 
+	copyright: 
+	card color 2: red, green, multicolor, horizontal
+	name 2: Earthen Arms
+	type symbol 2: enchantment
+	image 2: 
+	super type 2: <word-list-type>Enchantment</word-list-type>
+	sub type 2: <word-list-enchantment></word-list-enchantment>
+	indicator 2: red, green, multicolor, horizontal
+	rule text 2:
+		Creatures you control get +1/+1 and have <kw-0><nospellcheck>trample</nospellcheck></kw-0>.
+		At the beginning of each opponent’s upkeep, <atom-legname><nospellcheck>Earthen Arms</nospellcheck></atom-legname> deals 1 damage to that player.
+	flavor text 2: <i-flavor></i-flavor>
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2016-05-07 00:37:41
+	time modified: 2016-05-07 00:51:24
+	name: Elder Dragon
+	casting cost: WUBRG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Elder Dragon</nospellcheck></atom-legname> enters the battlefield, target opponent gains control of it.
+		When <atom-legname><nospellcheck>Elder Dragon</nospellcheck></atom-legname> dies, put a token copy of each enchantment you control onto the battlefield.
+	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 6
+	card code text: 
+	copyright: 
+	card color 2: blue, red, multicolor, horizontal
+	name 2: Stratus Walk
+	type symbol 2: enchantment
+	image 2: 
+	super type 2: <word-list-type>Enchantment</word-list-type>
+	sub type 2: <word-list-enchantment></word-list-enchantment>
+	indicator 2: blue, red, multicolor, horizontal
+	rule text 2:
+		Creatures you control have <kw-0><nospellcheck>first strike</nospellcheck></kw-0>.
+		At the beginning of combat on your turn, target creature you control gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> until end of turn.
+	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 version control:
 	type: none

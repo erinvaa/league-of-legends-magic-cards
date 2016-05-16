@@ -28,8 +28,11 @@ Before committing, please use `compile-from-src.sh` to keep the mse file and src
 
 ## Note on Conventions
 
-### Gold Boarders
-Currently Gold Boards are used as a easy way to hold the collector number of a card that isn't ready to be exported yet. Please use them as such.
+### Gold Borders
+Currently Gold Borders are used as a easy way to hold the collector number of a card that isn't ready to be exported yet. Please use them as such.
+
+### White Boaders
+White Borders indicate a card that should be highlighted for feedback. These cards are trying something new or I feel as though there might be something wrong with them so I'm looking for advice on them.
 
 ### Exporting Images
 If you are able to, please export the image files using MSE so that they are up to date (ignoring gold bordered cards as mentioned above). If you are unable to export them, please mention so in the commit message. 
