@@ -1490,18 +1490,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-05-16 12:48:25
-	border color: rgb(255,255,255)
+	time modified: 2016-05-17 22:35:30
 	name: Morgana, Fallen Angel
 	casting cost: 2BR
 	image: image60
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Angel</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: Whenever a creature you control blocks, you may pay <sym-auto>BR</sym-auto>. If you do, that creature gets +1/+1 until end of turn and <atom-legname><nospellcheck>Morgana</nospellcheck></atom-legname> deals 1 damage to an attacking player.
+	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B/R</sym-auto>. If you do, that creature gets +1/+1 until end of turn and <atom-legname><nospellcheck>Morgana</nospellcheck></atom-legname> deals 1 damage to each attacking player.
 	flavor text: <i-flavor>“There is no rest while Kayle’s brand of tyranny still exists.”</i-flavor>
 	power: 1
-	toughness: 4
+	toughness: 5
 	custom card number: 
 	card code text: 
 	illustrator: Jason Chan
@@ -1559,13 +1558,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 16:14:47
-	time modified: 2016-04-25 20:19:41
+	time modified: 2016-05-20 14:58:41
 	name: Kindred, Eternal Hunters
 	casting cost: 3G
 	image: image63
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
+	rarity: mythic rare
 	rule text:
 		Damage dealt by creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</nospellcheck></kw-0>.
 		<sym-auto>1G</sym-auto>, <sym-auto>T</sym-auto>: Target creature can’t leave the battlefield this turn. <i-auto>(That creature can’t go from the battlefield to any zone)</i-auto>
@@ -1581,7 +1580,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 19:56:44
-	time modified: 2016-05-16 12:27:49
+	time modified: 2016-05-20 14:37:15
 	border color: rgb(255,255,255)
 	name: Kog'Maw, Mouth of the Abyss
 	casting cost: 2BG
@@ -1589,8 +1588,10 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Voidborn</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: At the beginning of your upkeep, sacrifice a permanent. Then put a +1/+1 counter on <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname>.
-	flavor text: <i-flavor>“If that’s just hungry, I don’t want to see angry.”</i-flavor>
+	rule text:
+		Whenever <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname> blocks or becomes blocked by one or more creatures, you may exile one of those creatures.
+		When <atom-legname><nospellcheck>Kog’Maw</nospellcheck></atom-legname> deals combat damage to an opponent, you may exile target nonland permanent that player controls.
+	flavor text: <i-flavor>His hunger never sleeps</i-flavor>
 	power: 2
 	toughness: 1
 	custom card number: 
@@ -1968,22 +1969,22 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes: AV: Needs rewording as-is
 	time created: 2016-01-25 13:30:29
-	time modified: 2016-05-16 14:46:59
+	time modified: 2016-05-20 15:19:53
 	border color: rgb(255,255,255)
 	name: Nunu, Yeti Rider
-	casting cost: 2R
-	image: image5
+	casting cost: 3R
+	image: image30
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		When <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> enters the battlefield, put a 4/4 red Yeti creature token with <kw-0><nospellcheck>trample</nospellcheck></kw-0> named <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words> onto the battlefield.
-		When <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> or a creature you control named <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words> dies, sacrifice all creatures you control named <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> or <error-spelling:en_us:/magic.mse-game/magic-words>Willump</error-spelling:en_us:/magic.mse-game/magic-words>.
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		<sym-auto>1R</sym-auto>, <sym-auto>T</sym-auto>: At the beginning of your next upkeep, <atom-legname><nospellcheck>Nunu</nospellcheck></atom-legname> deals 3 damage to each tapped creature you don’t control. Activate this ability only any time you could cast a sorcery.
 	flavor text: <i-flavor></i-flavor>
-	power: 1
-	toughness: 1
+	power: 4
+	toughness: 4
 	custom card number: 
 	card code text: 
 	illustrator: Joshua Brian Smith & Volta Studios
@@ -2319,7 +2320,7 @@ card:
 	has styling: false
 	notes: OT: You could do shaco like Loki, where you dont know which is morph and which is real (also typo)
 	time created: 2016-01-25 15:10:24
-	time modified: 2016-05-16 12:25:23
+	time modified: 2016-05-20 14:38:02
 	border color: rgb(255,255,255)
 	name: Shaco, Demon Jester
 	casting cost: 1BR
@@ -2327,7 +2328,7 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, exile him and the top card of your library face down in a pile. Shuffle that pile, then put each card onto the battlefield face down tapped and attacking. At the end of combat, exile them <i-auto>(face up)</i-auto>, then return <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> to the battlefield tapped. <i-auto>(Face down cards on the battlefield are 2/2 colorless creature.)</i-auto>
+	rule text: When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, exile him and the top card of your library face down in a pile. Shuffle that pile, then put each card onto the battlefield face down tapped and attacking. At the end of combat, exile them face up, then return <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> to the battlefield tapped. <i-auto>(Face down cards on the battlefield are 2/2 colorless creature.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 2
@@ -2341,7 +2342,7 @@ card:
 	has styling: false
 	notes: OT: GW
 	time created: 2016-01-25 15:11:42
-	time modified: 2016-04-11 14:38:17
+	time modified: 2016-05-20 14:59:58
 	name: Shen, Eye of Twilight
 	casting cost: 3G
 	image: image99
@@ -2387,14 +2388,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 17:14:58
-	time modified: 2016-04-11 02:45:11
+	time modified: 2016-05-18 21:39:55
 	name: Vel’Koz, Eye of the Void
 	casting cost: 2UB
 	image: image101
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Voidborn</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <sym-auto>3UUBB</sym-auto>, <sym-auto>T</sym-auto>: Destroy target creature. If it is destroyed this way, exile it and draw a card.
+	rule text: Whenever a creature you don’t control would die, you may exile it instead. If you do, draw a card.
 	flavor text: <i-flavor>“There is much to learn about this world.”</i-flavor>
 	power: 2
 	toughness: 2
@@ -2454,8 +2455,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 17:31:12
-	time modified: 2016-05-16 12:11:29
-	border color: rgb(255,255,255)
+	time modified: 2016-05-17 22:35:38
 	name: Xerath, Magus Ascendant
 	casting cost: 2UB
 	image: image104
@@ -2464,7 +2464,7 @@ card:
 	rarity: rare
 	rule text:
 		<sym-auto>B</sym-auto>: Move a +1/+1 counter from another creature onto <atom-legname><nospellcheck>Xerath</nospellcheck></atom-legname>.
-		<sym-auto>U</sym-auto>: Charge one target of target spell to <atom-legname><nospellcheck>Xerath</nospellcheck></atom-legname>.
+		<sym-auto>U</sym-auto>: The next time target opponent would draw a card this turn, instead that player skips that draw and you draw a card. Activate this ability only if that player has drawn a card this turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -2478,8 +2478,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 18:01:50
-	time modified: 2016-05-16 12:18:42
-	border color: rgb(255,255,255)
+	time modified: 2016-05-17 23:14:31
 	name: Zyra, Rise of the Thorns
 	casting cost: 1RG
 	image: image105
@@ -2488,10 +2487,11 @@ card:
 	rarity: mythic rare
 	rule text:
 		At the beginning of your upkeep you may put a 0/1 green plant token onto the battlefield.
-		<sym-auto>G</sym-auto>: Target Plant has base power and toughness 3/3 until end of turn.
+		<sym-auto>G</sym-auto>: Another target Plant has base power and toughness 3/3 until end of turn.
+		<sym-auto>R</sym-auto>: Another target Plant gains <kw-0><nospellcheck>haste</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
+	power: 3
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Katie De Sousa
@@ -2574,7 +2574,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 00:56:06
-	time modified: 2016-04-06 21:15:42
+	time modified: 2016-05-17 22:50:19
 	name: Thresh, Chain Warden
 	casting cost: 2B
 	image: image92
@@ -2584,7 +2584,7 @@ card:
 	rule text:
 		Creatures you don’t control with 1 toughness can’t attack or block.
 		<atom-legname><nospellcheck>Thresh</nospellcheck></atom-legname> has +1/+1 for each creature you don’t control with 1 toughness.
-		<sym-auto>2B</sym-auto>: Put a -1/-1 counter on target creature.
+		<sym-auto>2B</sym-auto>: Put a -1/-1 counter on target creature with more than 1 toughness.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -2749,19 +2749,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:11:47
-	time modified: 2016-04-11 14:09:31
-	border color: rgb(200,180,0)
+	time modified: 2016-05-20 15:17:23
+	border color: rgb(255,255,255)
 	name: Skarner, Crystal Vanguard
-	casting cost: 2W
+	casting cost: 6W
 	image: image115
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>
-		<sym-auto>W</sym-auto>, <sym-auto>T</sym-auto>: Tap target creature.
-	flavor text: <i-flavor>“In claw’s reach.”</i-flavor>
-	power: 2
+		While <atom-legname><nospellcheck>Skarner</nospellcheck></atom-legname> is untapped, other creatures you control have <kw-0><nospellcheck>indestructible</nospellcheck></kw-0>.
+		When <atom-legname><nospellcheck>Skarner</nospellcheck></atom-legname> deals combat damage to an opponent, you may return target permanent card from your graveyard to the battlefield.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
 	toughness: 4
 	custom card number: 
 	card code text: 
@@ -2794,7 +2794,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:16:23
-	time modified: 2016-05-07 21:40:51
+	time modified: 2016-05-20 15:15:43
 	name: Swain, Master Tactician
 	casting cost: 4WB
 	image: image132
@@ -2806,7 +2806,7 @@ card:
 		Whenever a creature you control attacks or blocks, draw a card and lose 3 life.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
-	toughness: 3
+	toughness: 4
 	custom card number: 
 	card code text: 
 	copyright: 
@@ -2837,20 +2837,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:02:02
-	time modified: 2016-05-16 14:48:01
+	time modified: 2016-05-20 15:19:23
 	border color: rgb(255,255,255)
 	name: Talon, Blade’s Shadow
-	casting cost: 2B
+	casting cost: 2WB
 	image: image119
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
-		Talon enters the battlefield with a +1/+1 counter for each tapped creature you don’t control.
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>, <kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
+		When <atom-legname><nospellcheck>Talon</nospellcheck></atom-legname> enters the battlefield, he gains <kw-0><nospellcheck>deathtouch</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor>“This is no challenge.”</i-flavor>
-	power: 2
-	toughness: 1
+	power: 3
+	toughness: 2
 	custom card number: 
 	card code text: 
 	copyright: 
@@ -2860,17 +2860,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-05-07 21:43:59
+	time modified: 2016-05-20 15:25:39
 	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
-	casting cost: 1R
+	casting cost: 2R
 	image: image121
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever a creature blocks <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname>, she deals 1 damage to that creature.
+		Whenever <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> attacks, she deals 2 damage to target creature. If that creature dies this turn, she deals 1 damage to each creature defending player controls.
 	flavor text: <i-flavor>“I bravely volunteer to charge in recklessly!”</i-flavor>
 	power: 3
 	toughness: 1
@@ -3066,17 +3066,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-05-16 11:47:19
+	time modified: 2016-05-20 14:43:11
 	border color: rgb(255,255,255)
 	name: Vladimir, Crimson Reaper
-	casting cost: 2BR
+	casting cost: 3BR
 	image: image130
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>B</sym-auto>: Vladimir gets -1/-1 until end of turn. You gain 1 life.
-		<sym-auto>R</sym-auto>, Pay 1 life: <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> deals 1 damage to target creature.
+		<sym-auto>1</sym-auto>, Put a -1/-1 counter on <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>: Deal 1 damage to target creature or player.
+		<sym-auto>1</sym-auto>, Pay 1 life: Remove a -1/-1 counter from <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>.
 	flavor text: <i-flavor>“The rivers will run red.”</i-flavor>
 	power: 3
 	toughness: 3
@@ -3791,31 +3791,9 @@ card:
 	stylesheet: m15-token
 	has styling: false
 	notes: 
-	time created: 2016-03-30 23:39:56
-	time modified: 2016-05-16 14:47:05
-	border color: rgb(255,255,255)
-	card color: red
-	name: Willump
-	image: image160
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Yeti</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text: <kw-a><nospellcheck>Trample</nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
-	custom card number: 
-	card code text: 
-	illustrator: Joshua Brian Smith & Volta Studios
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	stylesheet: m15-token
-	has styling: false
-	notes: 
 	time created: 2016-04-11 01:06:50
-	time modified: 2016-05-07 21:09:29
+	time modified: 2016-05-16 17:09:34
+	border color: rgb(255,255,255)
 	card color: black
 	name: Zed’s Shadow
 	image: 
@@ -3849,8 +3827,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-05-05 17:05:52
-	time modified: 2016-05-16 16:59:31
-	border color: rgb(255,255,255)
+	time modified: 2016-05-17 22:12:32
 	name: Taliyah, Stoneweaver
 	casting cost: 3RW
 	image: image1
@@ -3858,7 +3835,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
 		When <atom-legname><nospellcheck>Taliyah</nospellcheck></atom-legname> attacks, put all creatures defending player controls into two piles. Then the defending player chooses one of those piles. Creatures in the other pile cannot block this turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -3938,7 +3915,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-05-07 00:37:41
-	time modified: 2016-05-07 00:48:41
+	time modified: 2016-05-18 19:59:23
 	name: Infernal Drake
 	casting cost: 1BR
 	image: 
@@ -3962,8 +3939,8 @@ card:
 	sub type 2: <word-list-enchantment></word-list-enchantment>
 	indicator 2: black, red, multicolor, horizontal
 	rule text 2:
-		Creatures you control have +2/+0.
-		<sym-auto>1</sym-auto>, Tap an untapped creature you control: <atom-cardname><nospellcheck>Infernal Tribute</nospellcheck></atom-cardname> deals 2 damage to target creature.
+		Creatures you control have +3/+1.
+		Tap an untapped creature you control: <atom-cardname><nospellcheck>Infernal Tribute</nospellcheck></atom-cardname> deals 3 damage to target creature.
 	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
@@ -3971,7 +3948,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-05-07 00:37:41
-	time modified: 2016-05-07 00:50:03
+	time modified: 2016-05-18 19:59:16
 	name: Mountain Drake
 	casting cost: 1RG
 	image: 
@@ -3995,8 +3972,8 @@ card:
 	sub type 2: <word-list-enchantment></word-list-enchantment>
 	indicator 2: red, green, multicolor, horizontal
 	rule text 2:
-		Creatures you control get +1/+1 and have <kw-0><nospellcheck>trample</nospellcheck></kw-0>.
-		At the beginning of each opponent’s upkeep, <atom-legname><nospellcheck>Earthen Arms</nospellcheck></atom-legname> deals 1 damage to that player.
+		Creatures you control get +2/+2 and have <kw-0><nospellcheck>trample</nospellcheck></kw-0>.
+		At the beginning of each opponent’s upkeep, <atom-legname><nospellcheck>Earthen Arms</nospellcheck></atom-legname> deals 2 damage to that player.
 	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
