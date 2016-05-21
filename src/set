@@ -742,7 +742,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-05-05 16:39:54
+	time modified: 2016-05-21 17:13:42
+	border color: rgb(200,180,0)
 	name: Diana, Scorn of the Moon
 	casting cost: 2WB
 	image: image31
@@ -750,7 +751,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		At the beginning of each upkeep, if <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has no +1/+1 counters on her, and no spells were cast last turn, put three +1/+1 counters on her.
+		At the beginning of each upkeep, if <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has no +1/+1 counters on her, and no spells were cast last turn, put two +1/+1 counters on her.
 		At the beginning of each upkeep, if a player cast two or more spells last turn, remove all +1/+1 counters from <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname>.
 		<atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> has <kw-0><nospellcheck>lifelink</nospellcheck></kw-0> while she has a +1/+1 counter on her.
 	flavor text: <i-flavor></i-flavor>
@@ -789,7 +790,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 16:20:28
-	time modified: 2016-02-16 18:07:46
+	time modified: 2016-05-21 17:14:04
+	border color: rgb(255,255,255)
 	name: Draven, Glorious Executioner
 	casting cost: 2R
 	image: image33
@@ -1107,14 +1109,14 @@ card:
 	has styling: false
 	notes: AV: Needs rework
 	time created: 2016-01-23 23:11:00
-	time modified: 2016-04-11 14:34:31
+	time modified: 2016-05-21 17:16:40
 	name: Gragas, Rabble Rouser
 	casting cost: 3R
 	image: image45
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: When <atom-legname><nospellcheck>Gragas</nospellcheck></atom-legname> enters the battlefield, put a Barrel artifact token onto the battlefield. It has “Tap this artifact: It deals 1 damage to target creature and that creature gets +1/+0 until end of turn.”
+	rule text: When <atom-legname><nospellcheck>Gragas</nospellcheck></atom-legname> enters the battlefield, put a Barrel artifact token onto the battlefield. It has “Tap this artifact: Target creature gets +1/-1 until end of turn.”
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 4
@@ -2411,7 +2413,7 @@ card:
 		OT: drop the another, where he can hit the same thing with 3 and 1
 		AV: Probably should playtest technically
 	time created: 2016-01-25 17:19:50
-	time modified: 2016-04-03 01:45:59
+	time modified: 2016-05-21 17:09:16
 	name: Ziggs, Hexplosives Expert
 	casting cost: 1R
 	indicator: colorless
@@ -2478,7 +2480,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 18:01:50
-	time modified: 2016-05-17 23:14:31
+	time modified: 2016-05-21 17:00:42
 	name: Zyra, Rise of the Thorns
 	casting cost: 1RG
 	image: image105
@@ -2486,9 +2488,9 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Plant</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		At the beginning of your upkeep you may put a 0/1 green plant token onto the battlefield.
-		<sym-auto>G</sym-auto>: Another target Plant has base power and toughness 3/3 until end of turn.
-		<sym-auto>R</sym-auto>: Another target Plant gains <kw-0><nospellcheck>haste</nospellcheck></kw-0> until end of turn.
+		At the beginning of your upkeep you may put a 0/1 green Plant token onto the battlefield.
+		<sym-auto>R</sym-auto>: Another target Plant gains <kw-0><nospellcheck>haste</nospellcheck></kw-0>.
+		<sym-auto>G</sym-auto>: Another target Plant you control has base power and toughness 3/3 until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -2726,7 +2728,7 @@ card:
 	has styling: false
 	notes: AV: Maybe wait for rework?
 	time created: 2016-01-26 01:10:34
-	time modified: 2016-05-07 00:37:35
+	time modified: 2016-05-21 17:12:32
 	name: Cassiopeia, Serpent’s Embrace
 	casting cost: 3B
 	image: image114
@@ -2737,7 +2739,7 @@ card:
 		<kw-A><nospellcheck>Wither</nospellcheck><atom-reminder-expert> <i-auto>(This deals damage to creatures in the form of -1/-1 counters.)</i-auto></atom-reminder-expert></kw-A>
 		<sym-auto>1B</sym-auto>: Target creature with a -1/-1 counter on it gets -1/-1 until end of turn.
 	flavor text: <i-flavor></i-flavor>
-	power: 1
+	power: 2
 	toughness: 2
 	custom card number: 
 	card code text: 
@@ -2860,7 +2862,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-05-20 15:25:39
+	time modified: 2016-05-21 17:05:35
 	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
 	casting cost: 2R
@@ -2870,10 +2872,10 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> attacks, she deals 2 damage to target creature. If that creature dies this turn, she deals 1 damage to each creature defending player controls.
-	flavor text: <i-flavor>“I bravely volunteer to charge in recklessly!”</i-flavor>
+		Whenever <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> attacks, she deals 2 damage to target creature defending player controls. If that creature dies this turn, she deals 1 damage to each creature defending player controls.
+	flavor text: <i-flavor></i-flavor>
 	power: 3
-	toughness: 1
+	toughness: 2
 	custom card number: 
 	card code text: 
 	copyright: 
@@ -3066,7 +3068,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-05-20 14:43:11
+	time modified: 2016-05-21 17:08:13
 	border color: rgb(255,255,255)
 	name: Vladimir, Crimson Reaper
 	casting cost: 3BR
@@ -3075,11 +3077,11 @@ card:
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>1</sym-auto>, Put a -1/-1 counter on <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>: Deal 1 damage to target creature or player.
-		<sym-auto>1</sym-auto>, Pay 1 life: Remove a -1/-1 counter from <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>.
-	flavor text: <i-flavor>“The rivers will run red.”</i-flavor>
-	power: 3
-	toughness: 3
+		<sym-auto>1</sym-auto>, Put a -1/-1 counter on <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> deals 1 damage to target creature.
+		Whenever you gain life, you may remove that many -1/-1 counters from Vladimir.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	custom card number: 
 	card code text: 
 	illustrator: Michal Ivan
@@ -3090,9 +3092,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:50:16
-	time modified: 2016-04-03 01:58:41
+	time modified: 2016-05-21 17:10:33
 	name: Volibear, Thunder’s Roar
-	casting cost: 4RG
+	casting cost: 3RG
 	image: image131
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Bear</word-list-race><soft> </soft><word-list-class></word-list-class>
@@ -3112,7 +3114,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:54:02
-	time modified: 2016-05-05 16:47:27
+	time modified: 2016-05-21 17:10:18
 	name: Warwick, Blood Hunter
 	casting cost: 2BG
 	image: image155
@@ -3122,7 +3124,7 @@ card:
 	rule text:
 		You may cast <atom-legname><nospellcheck>Warwick</nospellcheck></atom-legname> as though he had <kw-0><nospellcheck>flash</nospellcheck></kw-0> if an opponent controls a creature with toughness 2 or less.
 		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
-	flavor text: <i-flavor>“<error-spelling:en_us>Mmmm</error-spelling:en_us>... <error-spelling:en_us>mmm</error-spelling:en_us>... I smell their stench.”</i-flavor>
+	flavor text: <i-flavor>“I smell their stench.”</i-flavor>
 	power: 3
 	toughness: 3
 	custom card number: 
@@ -3640,7 +3642,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-22 17:21:28
-	time modified: 2016-04-11 14:22:03
+	time modified: 2016-05-21 17:11:28
 	name: Aurelion Sol, Star Forger
 	casting cost: 2RR
 	image: image71
@@ -3812,12 +3814,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-04-11 14:33:43
-	time modified: 2016-04-11 14:34:19
+	time modified: 2016-05-21 17:16:59
 	name: Barrel
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact>Barrel</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rule text: Tap this artifact: It deals 1 damage to target creature and that creature gets +1/+0 until end of turn.
+	rule text: Tap this artifact: Target creature gets +1/-1 until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
