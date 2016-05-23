@@ -9,7 +9,7 @@ These champions don't have enough lore to make a card for them do justice (or th
 
 * Jax
 * Lee Sin
-* Skarner
+* Diana
 
 # Making Changes
 
