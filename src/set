@@ -870,7 +870,7 @@ card:
 	has styling: false
 	notes: NK: Ability seems to cost a lot
 	time created: 2016-01-23 18:37:06
-	time modified: 2016-05-05 16:50:30
+	time modified: 2016-05-28 14:21:20
 	name: Evelynn, Widowmaker
 	casting cost: 4B
 	image: image166
@@ -885,7 +885,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
-	illustrator: Katie De Sousa
+	illustrator: 
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -2165,13 +2165,13 @@ card:
 	has styling: false
 	notes: AV: Don’t like quite how this would play
 	time created: 2016-01-25 14:39:09
-	time modified: 2016-04-11 02:42:02
+	time modified: 2016-05-22 00:45:35
 	name: Rek’Sai, Void Burrower
 	casting cost: 5BG
 	image: image88
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Voidborn</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
+	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
 		While <atom-legname><nospellcheck>Rek’Sai</nospellcheck></atom-legname> is tapped, she has <kw-0><nospellcheck>hexproof</nospellcheck></kw-0> and prevent all damage that would be dealt to and by her.
@@ -2862,7 +2862,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-05-21 17:05:35
+	time modified: 2016-05-24 17:37:35
 	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
 	casting cost: 2R
@@ -2872,7 +2872,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		Whenever <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> attacks, she deals 2 damage to target creature defending player controls. If that creature dies this turn, she deals 1 damage to each creature defending player controls.
+		Whenever <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> attacks, you may have her deal 2 damage to target creature defending player controls. If that creature dies this turn, she deals 1 damage to each creature defending player controls.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 2
@@ -2980,7 +2980,7 @@ card:
 	has styling: false
 	notes: OT: add a comma, maybe damage equal to counters?
 	time created: 2016-01-28 13:00:52
-	time modified: 2016-04-01 02:18:34
+	time modified: 2016-05-22 00:46:28
 	name: Varus, Arrow of Retribution
 	casting cost: WBR
 	image: image126
@@ -2989,7 +2989,7 @@ card:
 	rarity: rare
 	rule text:
 		At the beginning of your upkeep, put a +1/+1 counter on <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>, then you lose 1 life.
-		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: <error-spelling:en_us:/magic.mse-game/magic-words>Varus</error-spelling:en_us:/magic.mse-game/magic-words> deals damage equal to his power to target creature.
+		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname> deals damage equal to his power to target creature.
 	flavor text: <i-flavor>“I’m on borrowed time.”</i-flavor>
 	power: 2
 	toughness: 2
@@ -3068,7 +3068,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-05-21 17:08:13
+	time modified: 2016-05-24 17:43:17
 	border color: rgb(255,255,255)
 	name: Vladimir, Crimson Reaper
 	casting cost: 3BR
