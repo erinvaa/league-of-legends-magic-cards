@@ -136,10 +136,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 15:45:31
-	time modified: 2016-05-28 23:38:26
+	time modified: 2016-05-31 14:59:37
 	name: Veigar, Tiny Master of Evil
 	casting cost: 2B
-	image: image16
+	image: image9
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -150,6 +150,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
+	illustrator: Vic Pido
 	copyright: 
 	image 2: 
 	super type 2: <word-list-type></word-list-type>
@@ -186,8 +187,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 17:32:28
-	time modified: 2016-05-29 00:18:03
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:18:49
 	name: Akali, Fist of Shadow
 	casting cost: 2G
 	image: image20
@@ -259,17 +259,16 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes: Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls.
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-05-29 14:49:53
-	border color: rgb(255,255,255)
+	time modified: 2016-06-01 21:16:48
 	name: Diana, Scorn of the Moon
 	casting cost: 1WB
 	image: image31
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text: Whenever a noncreature spell is cast that targets another creature you control, you may put a +1/+1 counter on <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname>.
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule text: If an effect would put a +1/+1 counter on one or more other creatures, put a +1/+1 counter on Diana.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
 	power: 2
@@ -284,10 +283,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 16:02:14
-	time modified: 2016-05-28 18:03:25
+	time modified: 2016-05-29 19:40:20
 	name: Dr. Mundo, Madman of Zaun
 	casting cost: 2RG
-	image: image160
+	image: image5
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Mutant</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
@@ -304,14 +303,18 @@ card:
 	illustrator: nicholasgwee
 	copyright: 
 	image 2: 
+	super type 2: <word-list-type></word-list-type>
+	sub type 2: 
+	rule text 2: 
+	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 16:20:28
-	time modified: 2016-05-29 14:15:46
+	time modified: 2016-05-30 22:35:37
 	name: Draven, Glorious Executioner
-	casting cost: 1R
+	casting cost: R
 	image: image161
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -322,7 +325,7 @@ card:
 	flavor text: <i-flavor>“Let’s admire me”</i-flavor>
 	watermark: league of legends noxus
 	power: 2
-	toughness: 2
+	toughness: 1
 	card code text: 
 	illustrator: Giselle Almeida
 	copyright: 
@@ -414,8 +417,7 @@ card:
 		AV: Dropped CMC from 4 to 2 on CD suggestion
 		NK: Justification counter. Jusitified refers to the counter itself, justification is what the counter provides.
 	time created: 2016-01-23 23:40:43
-	time modified: 2016-05-29 14:37:42
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:25:43
 	name: Irelia, Will of the Blades
 	casting cost: 1W
 	image: image27
@@ -485,7 +487,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:43:24
-	time modified: 2016-05-29 14:52:25
+	time modified: 2016-05-30 23:07:59
 	name: Katarina, Sinister Blade
 	casting cost: 3R
 	image: image58
@@ -493,8 +495,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> deals 1 damage to up to two target creatures.
-		Whenever a creature you don’t control dies, untap <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname>.
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> deals 1 damage to up to two target creatures you don’t control.
+		Whenever one or more creature you don’t control dies, untap <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname>.
 	flavor text: <i-flavor>“The dance of blades.”</i-flavor>
 	watermark: league of legends noxus
 	power: 3
@@ -581,10 +583,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 16:14:47
-	time modified: 2016-05-20 14:58:41
+	time modified: 2016-06-02 11:30:24
 	name: Kindred, Eternal Hunters
 	casting cost: 3G
-	image: image63
+	image: image12
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
@@ -596,6 +598,7 @@ card:
 	toughness: 4
 	custom card number: 
 	card code text: 
+	illustrator: VegaColors @ DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -603,10 +606,10 @@ card:
 	has styling: false
 	notes: AV: Should the card require a target to flicker?
 	time created: 2016-01-24 19:59:16
-	time modified: 2016-05-28 17:54:43
+	time modified: 2016-06-02 11:34:21
 	name: LeBlanc, Deceiver
 	casting cost: 1UB
-	image: image65
+	image: image15
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -617,16 +620,17 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
+	illustrator: KumikoPixiv @ DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes: Flighty; high damage early; blind monk
 	time created: 2016-01-24 20:06:06
-	time modified: 2016-05-29 14:50:13
-	border color: rgb(255,255,255)
-	name: Lee Sin, Blink Monk
+	time modified: 2016-06-01 20:59:13
+	border color: rgb(200,180,0)
+	name: Lee Sin, Blind Monk
 	casting cost: GW
 	image: image66
 	super type: <word-list-type>Legendary Creature</word-list-type>
@@ -742,11 +746,10 @@ card:
 	has styling: false
 	notes: AV: Doesn’t technically work, but everyone knows what I mean
 	time created: 2016-01-25 14:24:27
-	time modified: 2016-05-29 14:40:30
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:27:35
 	name: Quinn, Demacia’s Wings
 	casting cost: 2W
-	image: image87
+	image: image8
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Scout</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -759,6 +762,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
+	illustrator: Aths-Art @ DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -840,8 +844,7 @@ card:
 	has styling: false
 	notes: OT: You could do shaco like Loki, where you dont know which is morph and which is real (also typo)
 	time created: 2016-01-25 15:10:24
-	time modified: 2016-05-20 14:38:02
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:18:35
 	name: Shaco, Demon Jester
 	casting cost: 1BR
 	image: image98
@@ -850,7 +853,7 @@ card:
 	rarity: rare
 	rule text: When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, exile him and the top card of your library face down in a pile. Shuffle that pile, then put each card onto the battlefield face down tapped and attacking. At the end of combat, exile them face up, then return <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> to the battlefield tapped. <i-auto>(Face down cards on the battlefield are 2/2 colorless creature.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
-	power: 4
+	power: 2
 	toughness: 2
 	custom card number: 
 	card code text: 
@@ -886,7 +889,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 15:39:26
-	time modified: 2016-05-28 17:55:40
+	time modified: 2016-05-30 22:59:15
 	name: Urgot, Headsman’s Pride
 	casting cost: 2BG
 	image: image100
@@ -910,12 +913,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 17:27:38
-	time modified: 2016-05-28 23:39:35
+	time modified: 2016-05-31 00:04:20
 	name: Yasuo, Unforgiven
 	casting cost: 1RWU
 	image: image103
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<sym-auto>2U</sym-auto>: Target creature gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> until end of turn.
@@ -934,8 +937,7 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-05-28 17:52:58
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:18:57
 	name: Zed, Master of Shadows
 	casting cost: 2BB
 	image: image106
@@ -983,19 +985,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 00:57:46
-	time modified: 2016-05-28 17:55:02
+	time modified: 2016-05-30 22:51:39
 	name: Singed, Mad Chemist
-	casting cost: 2UB
+	casting cost: 3UB
 	image: image109
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Artificer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-A><nospellcheck>Wither</nospellcheck><atom-reminder-expert> <i-auto>(This deals damage to creatures in the form of -1/-1 counters.)</i-auto></atom-reminder-expert></kw-A>
-		Whenever a creature attacks you or a planeswalker you control, it gets -1/-1 until end of turn.
+		Whenever a creature attacks you or a planeswalker you control, put a -1/-1 counter on that creature.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
-	power: 2
+	power: 1
 	toughness: 5
 	custom card number: 
 	card code text: 
@@ -1030,10 +1032,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:00:39
-	time modified: 2016-05-28 17:53:36
+	time modified: 2016-06-01 21:13:43
 	name: Taric, Shield of Valoran
 	casting cost: 2W
-	image: image73
+	image: image10
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Avatar</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1041,11 +1043,12 @@ card:
 		<kw-0><nospellcheck>Soulbond</nospellcheck></kw-0>
 		<sym-auto>5W</sym-auto>: <atom-legname><nospellcheck>Taric</nospellcheck></atom-legname> and paired creature gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor>“That glimmer of hope you see, that’s me.”</i-flavor>
-	watermark: league of legends mount targon
+	watermark: none
 	power: 1
 	toughness: 4
 	custom card number: 
 	card code text: 
+	illustrator: Trio-Infierno @ DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1089,20 +1092,20 @@ card:
 	has styling: false
 	notes: AV: Maybe wait for rework?
 	time created: 2016-01-26 01:10:34
-	time modified: 2016-05-28 17:54:10
+	time modified: 2016-06-01 20:59:58
 	name: Cassiopeia, Serpent’s Embrace
-	casting cost: 3B
+	casting cost: 2B
 	image: image114
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Snake</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-A><nospellcheck>Wither</nospellcheck><atom-reminder-expert> <i-auto>(This deals damage to creatures in the form of -1/-1 counters.)</i-auto></atom-reminder-expert></kw-A>
-		<sym-auto>1B</sym-auto>: Target creature with a -1/-1 counter on it gets -1/-1 until end of turn.
+		<sym-auto>1B</sym-auto>, <sym-auto>T</sym-auto>: Destroy target creature with a -1/-1 counter on it.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
-	power: 2
-	toughness: 2
+	power: 1
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Evan Monteiro
@@ -1159,8 +1162,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:02:02
-	time modified: 2016-05-28 17:55:32
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:18:28
 	name: Talon, Blade’s Shadow
 	casting cost: 2WB
 	image: image119
@@ -1183,11 +1185,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-05-28 17:10:42
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:18:51
 	name: Tristana, Yordle Gunner
 	casting cost: 2R
-	image: image121
+	image: image13
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1200,6 +1201,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
+	illustrator: VegaColors @ DeviantArt
 	copyright: 
 	image 2: 
 	super type 2: <word-list-type></word-list-type>
@@ -1258,16 +1260,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-05-28 17:55:48
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:18:23
 	name: Vladimir, Crimson Reaper
-	casting cost: 3BR
+	casting cost: 2BR
 	image: image130
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>1</sym-auto>, Put a -1/-1 counter on <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> deals 1 damage to target creature.
+		<sym-auto>B/R</sym-auto>, Put a -1/-1 counter on <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> deals 1 damage to target creature.
 		Whenever you gain life, you may remove that many -1/-1 counters from Vladimir.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
@@ -1330,11 +1331,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:57:56
-	time modified: 2016-05-28 16:42:17
-	border color: rgb(255,255,255)
+	time modified: 2016-06-02 11:21:13
 	name: Xin Zhao, Seneschai of Demacia
 	casting cost: 2W
-	image: image120
+	image: image11
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1345,6 +1345,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
+	illustrator: Alonewolf99 @ DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1354,10 +1355,10 @@ card:
 		CD: Needs a rework; not flashy
 		AV: Trying new design
 	time created: 2016-02-01 15:24:54
-	time modified: 2016-05-29 14:26:48
+	time modified: 2016-06-02 11:32:06
 	name: Jhin, Virtuoso
 	casting cost: 2BR
-	image: image136
+	image: image16
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1371,6 +1372,7 @@ card:
 	toughness: 1
 	custom card number: 
 	card code text: 
+	illustrator: Naheht @ DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1378,8 +1380,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-22 17:21:28
-	time modified: 2016-05-29 14:24:41
-	border color: rgb(0,0,0)
+	time modified: 2016-05-31 17:58:07
 	name: Aurelion Sol, Star Forger
 	casting cost: 2RR
 	image: image152
@@ -1407,14 +1408,14 @@ card:
 		AV: Feel like transformed side should have one more thing. Maybe an ability?
 		AV: Trying new activated ability
 	time created: 2016-03-22 17:24:36
-	time modified: 2016-04-08 23:52:04
+	time modified: 2016-06-01 21:00:26
 	name: Broken Blade
 	casting cost: 2
 	type symbol: multitype
 	image: image50
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: rare
+	rarity: mythic rare
 	rule text:
 		Equipped creature gets +1/+0.
 		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>.
@@ -1459,8 +1460,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-04-11 01:06:50
-	time modified: 2016-05-28 23:23:06
-	border color: rgb(255,255,255)
+	time modified: 2016-06-14 18:27:26
 	card color: black
 	name: Zed’s Shadow
 	image: image2
