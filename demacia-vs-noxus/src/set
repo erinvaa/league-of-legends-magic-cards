@@ -135,7 +135,7 @@ card:
 	time modified: 2016-05-31 14:59:37
 	name: Veigar, Tiny Master of Evil
 	casting cost: 2B
-	image: image16
+	image: image9
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -253,14 +253,14 @@ card:
 	has styling: false
 	notes: AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-06-01 21:16:48
+	time modified: 2016-10-03 02:14:04
 	name: Diana, Scorn of the Moon
 	casting cost: 1WB
 	image: image31
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: If an effect would put a +1/+1 counter on one or more other creatures, put a +1/+1 counter on Diana.
+	rule text: If a +1/+1 counter would be put on two or more other creatures, put a +1/+1 counter on Diana.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
 	power: 2
@@ -549,10 +549,10 @@ card:
 		CD: I dont really see a mechanical appeal for kennen. little benefit to untapping him other than to block and he’s not a super strong blocker. might want to rework him.
 		AV: Now trying mana reward instead of untapping him
 	time created: 2016-01-24 15:59:35
-	time modified: 2016-10-03 01:40:06
+	time modified: 2016-10-03 02:08:59
 	name: Kennen, Heart of the Tempest
 	casting cost: 1RG
-	image: image164
+	image: image2
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -565,6 +565,7 @@ card:
 	toughness: 3
 	custom card number: 
 	card code text: 
+	illustrator: Reislet@DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -686,10 +687,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:03:23
-	time modified: 2016-05-28 17:53:30
+	time modified: 2016-10-03 02:12:39
 	name: Pantheon, Artisan of War
 	casting cost: 3R
-	image: image85
+	image: image17
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -702,6 +703,7 @@ card:
 	toughness: 1
 	custom card number: 
 	card code text: 
+	illustrator: weaselpa@DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1051,7 +1053,8 @@ card:
 	has styling: false
 	notes: AV: Maybe wait for rework?
 	time created: 2016-01-26 01:10:34
-	time modified: 2016-06-01 20:59:58
+	time modified: 2016-10-03 01:56:45
+	border color: rgb(255,255,255)
 	name: Cassiopeia, Serpent’s Embrace
 	casting cost: 2B
 	image: image114
@@ -1364,7 +1367,7 @@ card:
 		AV: Feel like transformed side should have one more thing. Maybe an ability?
 		AV: Trying new activated ability
 	time created: 2016-03-22 17:24:36
-	time modified: 2016-06-01 21:00:26
+	time modified: 2016-10-03 02:04:30
 	name: Broken Blade
 	casting cost: 2
 	type symbol: multitype
@@ -1377,6 +1380,7 @@ card:
 		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
+	illustrator: Riot Games
 	copyright: 
 	name 2: Blade of the Exile
 	type symbol 2: planeswalker
@@ -1384,8 +1388,8 @@ card:
 	super type 2: <word-list-type>Legendary Artifact</word-list-type>
 	sub type 2: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
 	rule text 2:
-		Equipped creature gets +2/+1.
-		<sym-auto>2RW</sym-auto>: Equipped creature gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> and gets +1/+0 until end of turn.
+		Equipped creature gets +3/+2.
+		<sym-auto>2RW</sym-auto>: Equipped creature gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> and gets +1/+0 until end of turn.
 		When <atom-cardname><nospellcheck>Blade of the Exile</nospellcheck></atom-cardname> becomes unequipped, transform it.
 	flavor text 2: <i-flavor></i-flavor>
 	illustrator 2: Jason Chan
@@ -1439,7 +1443,7 @@ card:
 	border color: rgb(255,255,255)
 	name: Kled, Cantankerous Cavalier
 	casting cost: 3BR
-	image: image9
+	image: image21
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Warrier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
