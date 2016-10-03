@@ -108,10 +108,6 @@ card:
 	card code text: 
 	copyright: 
 	image 2: 
-	super type 2: <word-list-type></word-list-type>
-	sub type 2: 
-	rule text 2: 
-	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	stylesheet: m15-token
@@ -139,7 +135,7 @@ card:
 	time modified: 2016-05-31 14:59:37
 	name: Veigar, Tiny Master of Evil
 	casting cost: 2B
-	image: image9
+	image: image16
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -153,10 +149,6 @@ card:
 	illustrator: Vic Pido
 	copyright: 
 	image 2: 
-	super type 2: <word-list-type></word-list-type>
-	sub type 2: 
-	rule text 2: 
-	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	has styling: false
@@ -259,7 +251,7 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls.
+	notes: AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
 	time created: 2016-01-23 01:48:48
 	time modified: 2016-06-01 21:16:48
 	name: Diana, Scorn of the Moon
@@ -283,7 +275,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 16:02:14
-	time modified: 2016-05-29 19:40:20
+	time modified: 2016-05-28 18:03:25
 	name: Dr. Mundo, Madman of Zaun
 	casting cost: 2RG
 	image: image5
@@ -303,10 +295,6 @@ card:
 	illustrator: nicholasgwee
 	copyright: 
 	image 2: 
-	super type 2: <word-list-type></word-list-type>
-	sub type 2: 
-	rule text 2: 
-	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	has styling: false
@@ -387,7 +375,7 @@ card:
 		AV: Worried about too much text. Definately consider if I can clean up the villiain mechanic
 		AV: Changing how villain counters are created ("Was ETB + when creature will villian counter on it dies"
 	time created: 2016-01-23 21:38:46
-	time modified: 2016-05-29 14:31:04
+	time modified: 2016-10-02 17:27:18
 	card color: white
 	name: Garen, Might of Demacia
 	casting cost: 3W
@@ -397,7 +385,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Whenever a creature deals damage to you, you may put a villain counter on that creature. If you do, remove all villain counters from other creatures.
+		Whenever a creature deals damage to you, you may put a villain counter on that creature. If you do, remove all villain counters from other creatures you don’t control.
 		All damage dealt by <atom-legname><nospellcheck>Garen</nospellcheck></atom-legname> to creatures with a villain counter on them is doubled.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends demacia
@@ -536,7 +524,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-05-28 17:54:50
+	time modified: 2016-10-03 01:40:25
+	border color: rgb(255,255,255)
 	name: Morgana, Fallen Angel
 	casting cost: 2BR
 	image: image60
@@ -560,7 +549,7 @@ card:
 		CD: I dont really see a mechanical appeal for kennen. little benefit to untapping him other than to block and he’s not a super strong blocker. might want to rework him.
 		AV: Now trying mana reward instead of untapping him
 	time created: 2016-01-24 15:59:35
-	time modified: 2016-05-29 14:18:19
+	time modified: 2016-10-03 01:40:06
 	name: Kennen, Heart of the Tempest
 	casting cost: 1RG
 	image: image164
@@ -569,7 +558,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>Ninjutsu <param-cost><sym-auto>RG</sym-auto></param-cost></nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals combat damage to a player, you may pay <sym-auto>XRR</sym-auto>. If you do, <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals X damage to target creature or planeswalker.
+		When <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals combat damage to a player, he deals 1 damage to each creature and planeswalker that player controls.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 3
@@ -583,16 +572,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 16:14:47
-	time modified: 2016-06-02 11:30:24
+	time modified: 2016-10-02 17:45:24
 	name: Kindred, Eternal Hunters
-	casting cost: 3G
+	casting cost: 2GG
 	image: image12
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		Damage dealt by creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</nospellcheck></kw-0>.
-		<sym-auto>1G</sym-auto>, <sym-auto>T</sym-auto>: Target creature can’t leave the battlefield this turn. <i-auto>(That creature can’t go from the battlefield to any zone)</i-auto>
+		<sym-auto>1G</sym-auto>, <sym-auto>T</sym-auto>: Target creature can’t leave the battlefield this turn. <i-auto>(That creature can’t go from the battlefield to anywhere, including the graveyard.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -606,14 +595,14 @@ card:
 	has styling: false
 	notes: AV: Should the card require a target to flicker?
 	time created: 2016-01-24 19:59:16
-	time modified: 2016-06-02 11:34:21
+	time modified: 2016-10-02 17:46:09
 	name: LeBlanc, Deceiver
 	casting cost: 1UB
 	image: image15
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <sym-auto>4UB</sym-auto>, <sym-auto>T</sym-auto>: Exile <atom-legname><nospellcheck>LeBlanc</nospellcheck></atom-legname> and return her to the battlefield. Then destroy target creature.
+	rule text: <sym-auto>4UB</sym-auto>, <sym-auto>T</sym-auto>: Exile <atom-legname><nospellcheck>LeBlanc</nospellcheck></atom-legname> and return her to the battlefield. Then destroy another target creature.
 	flavor text: <i-flavor>“Surprised to see me?”</i-flavor>
 	watermark: league of legends noxus
 	power: 2
@@ -636,10 +625,6 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		Whenever you gain life for the first time each turn, <atom-legname><nospellcheck>Lee Sin</nospellcheck></atom-legname> gets +3/+3 until the end of turn.
-	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 2
 	toughness: 1
@@ -652,7 +637,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 20:09:33
-	time modified: 2016-05-28 23:53:54
+	time modified: 2016-10-02 17:46:58
 	name: Leona, Radiant Dawn
 	casting cost: 3W
 	image: image1
@@ -661,7 +646,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> attacks, until end of turn another target attacking creature can’t be blocked unless <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> is also blocked.
+		When <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> attacks, another target attacking creature can’t be blocked until end of turn unless <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> is blocked.
 	flavor text: <i-flavor>“I will protect you.”</i-flavor>
 	watermark: league of legends mount targon
 	power: 2
@@ -767,28 +752,6 @@ card:
 	image 2: 
 	copyright 2: 
 card:
-	stylesheet: m15-token
-	has styling: false
-	notes: 
-	time created: 2016-01-25 14:29:20
-	time modified: 2016-05-28 23:33:05
-	border color: rgb(255,255,255)
-	card color: white
-	name: Valor
-	image: image90
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Bird</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
-	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
-	watermark: league of legends demacia
-	power: 1
-	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:49:38
@@ -816,7 +779,7 @@ card:
 	has styling: false
 	notes: AV: Lots of lines. Is there a way to clean him up?
 	time created: 2016-01-25 14:58:15
-	time modified: 2016-05-28 17:44:46
+	time modified: 2016-10-02 18:04:58
 	name: Rumble, Mechanized Menace
 	casting cost: 2UR
 	image: image95
@@ -825,7 +788,7 @@ card:
 	rarity: rare
 	rule text:
 		Whenever you cast a spell, put a heat counters on <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
-		While <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> has two or more heat counters you can’t cast spells and creatures you control have +2/+2.
+		While <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> has two or more heat counters, you can’t cast spells and creatures you control have +2/+2.
 		At the beginning of your upkeep, remove all heat counters from <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends bandle city
@@ -835,10 +798,6 @@ card:
 	card code text: 
 	copyright: 
 	image 2: 
-	super type 2: <word-list-type></word-list-type>
-	sub type 2: 
-	rule text 2: 
-	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	has styling: false
@@ -937,7 +896,7 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-06-14 18:18:57
+	time modified: 2016-10-02 18:59:40
 	name: Zed, Master of Shadows
 	casting cost: 2BB
 	image: image106
@@ -945,7 +904,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		At the end of your turn, you may put a 0/2 legendary black Shade Ninja creature token named Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0>.
+		At the end of your turn, you may create a 0/2 legendary black Shade Ninja creature token named Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0>.
 		<sym-auto>B</sym-auto>: Change the target of each spell or ability targeting <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> to a creature you control named “Zed’s <kw-0><nospellcheck>Shadow</nospellcheck></kw-0>” and change the target of each spell or ability targeting that creature to <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
@@ -985,19 +944,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 00:57:46
-	time modified: 2016-05-30 22:51:39
+	time modified: 2016-10-02 18:07:10
 	name: Singed, Mad Chemist
-	casting cost: 3UB
+	casting cost: 2UB
 	image: image109
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Artificer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-A><nospellcheck>Wither</nospellcheck><atom-reminder-expert> <i-auto>(This deals damage to creatures in the form of -1/-1 counters.)</i-auto></atom-reminder-expert></kw-A>
-		Whenever a creature attacks you or a planeswalker you control, put a -1/-1 counter on that creature.
+		Whenever a creature attacks you or a planeswalker you control it gets -1/-1 until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
-	power: 1
+	power: 2
 	toughness: 5
 	custom card number: 
 	card code text: 
@@ -1043,7 +1002,7 @@ card:
 		<kw-0><nospellcheck>Soulbond</nospellcheck></kw-0>
 		<sym-auto>5W</sym-auto>: <atom-legname><nospellcheck>Taric</nospellcheck></atom-legname> and paired creature gain <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor>“That glimmer of hope you see, that’s me.”</i-flavor>
-	watermark: none
+	watermark: league of legends mount targon
 	power: 1
 	toughness: 4
 	custom card number: 
@@ -1186,6 +1145,7 @@ card:
 	notes: 
 	time created: 2016-01-28 00:07:20
 	time modified: 2016-06-14 18:18:51
+	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
 	casting cost: 2R
 	image: image13
@@ -1204,10 +1164,6 @@ card:
 	illustrator: VegaColors @ DeviantArt
 	copyright: 
 	image 2: 
-	super type 2: <word-list-type></word-list-type>
-	sub type 2: 
-	rule text 2: 
-	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 card:
 	has styling: false
@@ -1307,16 +1263,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:56:39
-	time modified: 2016-05-28 17:52:44
+	time modified: 2016-10-02 18:41:02
 	name: Wukong, Monkey King
 	casting cost: 1GU
 	image: image137
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Ape</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Monkey</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Prowess</nospellcheck></kw-a>
-		<sym-auto>GU</sym-auto>, Return <atom-legname><nospellcheck>Wukong</nospellcheck></atom-legname> to your hand: Put a 0/2 blue and green ape ninja creature token onto the battlefield. If <atom-legname><nospellcheck>Wukong</nospellcheck></atom-legname> was blocking a creature, it enters blocking that creature.
+		<sym-auto>GU</sym-auto>, Return <atom-legname><nospellcheck>Wukong</nospellcheck></atom-legname> to your hand: Create a 0/2 blue and green Monkey Ninja creature token. If <atom-legname><nospellcheck>Wukong</nospellcheck></atom-legname> was blocking a creature, it enters blocking that creature. Sacrifice it at the end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 2
@@ -1380,7 +1336,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-22 17:21:28
-	time modified: 2016-05-31 17:58:07
+	time modified: 2016-10-03 01:39:31
 	name: Aurelion Sol, Star Forger
 	casting cost: 2RR
 	image: image152
@@ -1390,14 +1346,14 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		<atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname>’s power is equal to the number of Stars you control.
-		At the beginning of each turn, you may pay <sym-auto>R</sym-auto>. If you do, put a red Star enchantment token onto the battlefield. It has “<sym-auto>5RRR</sym-auto>, Sacrifice this enchantment: It deals 5 damage to target creature.”
+		At the end of your turn, create two red Star enchantment tokens. They have “<sym-auto>7R</sym-auto>, Sacrifice this enchantment: It deals 5 damage to target creature.”
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
 	power: *
 	toughness: 4
 	custom card number: 
 	card code text: 
-	illustrator: 8-bitpunch @ DeviantArt
+	illustrator: 8-bitpunch@DeviantArt
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1439,14 +1395,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-28 20:36:07
-	time modified: 2016-05-29 14:24:45
+	time modified: 2016-10-02 19:37:45
 	card color: red
 	name: Star
 	image: image14
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment>Star</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: mythic rare
-	rule text: <sym-auto>5RRR</sym-auto>, Sacrifice this enchantment: It deals 5 damage to target creature.
+	rule text: <sym-auto>7R</sym-auto>, Sacrifice this enchantment: It deals 5 damage to target creature.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
 	custom card number: 
@@ -1463,7 +1419,7 @@ card:
 	time modified: 2016-06-14 18:27:26
 	card color: black
 	name: Zed’s Shadow
-	image: image2
+	image: image171
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Shade</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: 
@@ -1472,6 +1428,30 @@ card:
 	toughness: 2
 	card code text: 
 	illustrator: Pan Chengwei
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2016-10-02 19:38:08
+	time modified: 2016-10-03 01:44:22
+	border color: rgb(255,255,255)
+	name: Kled, Cantankerous Cavalier
+	casting cost: 3BR
+	image: image9
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Warrier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> enters the battlefield with two +1/+1 counters on him.
+		<atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> has <kw-0><nospellcheck>haste</nospellcheck></kw-0> and <kw-0><nospellcheck>first strike</nospellcheck></kw-0> while he has three +1/+1 counters on him.
+		When <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> would take damage, if he has any +1/+1 counters on him, prevent that damage and remove all +1/+1 counters from him instead.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	illustrator: Shafiq Cromwell
 	copyright: 
 	image 2: 
 	copyright 2: 

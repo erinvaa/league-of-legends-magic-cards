@@ -216,7 +216,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 14:45:09
-	time modified: 2016-04-03 02:08:13
+	time modified: 2016-04-03 01:08:13
 	card color: white, green, multicolor, horizontal
 	name: Noxious Trap
 	image: image6
@@ -1264,7 +1264,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 23:26:17
-	time modified: 2016-04-03 02:08:32
+	time modified: 2016-04-03 01:08:32
 	card color: artifact
 	name: Turret
 	image: image82
@@ -1309,7 +1309,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 23:38:57
-	time modified: 2016-04-03 02:08:08
+	time modified: 2016-04-03 01:08:08
 	card color: green
 	name: Tentacle
 	image: image53
@@ -2234,7 +2234,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:31:36
-	time modified: 2016-04-03 02:16:37
+	time modified: 2016-04-03 01:16:37
 	name: Ball
 	image: image110
 	super type: <word-list-type>Legendary Artifact</word-list-type>
@@ -4188,11 +4188,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-10-02 19:38:08
-	time modified: 2016-10-02 19:41:39
+	time modified: 2016-10-03 01:45:27
 	border color: rgb(255,255,255)
 	name: Kled, Cantankerous Cavalier
 	casting cost: 3BR
-	image: 
+	image: image28
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Warrier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -4204,6 +4204,7 @@ card:
 	power: 2
 	toughness: 2
 	card code text: 
+	illustrator: Shafiq Cromwell
 	copyright: 
 	image 2: 
 	copyright 2: 
