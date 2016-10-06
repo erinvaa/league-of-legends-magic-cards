@@ -66,16 +66,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 14:29:14
-	time modified: 2016-10-05 15:17:29
+	time modified: 2016-10-06 22:09:14
 	name: Lux, Lady of Luminosity
-	casting cost: 1W
+	casting cost: WU
 	image: image4
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		Your opponents play with their hands revealed.
-		<sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>, Name a nonland card: Players may not cast cards with that name this turn.
+		<sym-auto>1W/U</sym-auto>, <sym-auto>T</sym-auto>, Name a nonland card: Players may not cast cards with that name this turn.
 	flavor text: <i-flavor>“Illuminate the enemy!”</i-flavor>
 	watermark: league of legends demacia
 	power: 2
@@ -181,7 +181,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 17:32:28
-	time modified: 2016-10-05 11:53:54
+	time modified: 2016-10-06 20:47:43
 	border color: rgb(255,255,255)
 	name: Akali, Fist of Shadow
 	casting cost: 2G
@@ -190,7 +190,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		When <atom-cardname><nospellcheck>Akali, Fist of Shadow</nospellcheck></atom-cardname> deals combat damage to a player, you may have her deal damage equal to her power to target creature.
+		When <atom-cardname><nospellcheck>Akali, Fist of Shadow</nospellcheck></atom-cardname> deals combat damage to a player, you may have her deal that much damage to target creature <error-spelling:en_us:/magic.mse-game/magic-words>de</error-spelling:en_us:/magic.mse-game/magic-words>.
 		<sym-auto>1G</sym-auto>: Return <atom-legname><nospellcheck>Akali</nospellcheck></atom-legname> to your hand.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
@@ -232,18 +232,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 01:15:46
-	time modified: 2016-10-05 02:13:29
+	time modified: 2016-10-06 21:26:09
 	border color: rgb(255,255,255)
 	name: Darius, Hand of Noxus
-	casting cost: 2R
+	casting cost: 1RR
 	image: image117
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<atom-legname><nospellcheck>Darius</nospellcheck></atom-legname> attacks each turn if able.
-		When <atom-legname><nospellcheck>Darius</nospellcheck></atom-legname> attacks, target creature blocks <atom-legname><nospellcheck>Darius</nospellcheck></atom-legname> this turn if able.
-	flavor text: <i-flavor>“Exploit every weakness.”</i-flavor>
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Darius</nospellcheck></atom-legname> is blocked, he gets +2/+2 and gains <kw-0><nospellcheck>trample</nospellcheck></kw-0> until end of turn.
+	flavor text: <i-flavor>“They will regret opposing me.”</i-flavor>
 	watermark: league of legends noxus
 	power: 4
 	toughness: 3
@@ -355,9 +355,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 19:09:49
-	time modified: 2016-10-05 02:01:04
+	time modified: 2016-10-06 21:34:52
 	name: Galio, Sentinel’s Sorrow
-	casting cost: 3WW
+	casting cost: 3W
 	image: image38
 	super type: <word-list-type>Legendary Artifact Creature</word-list-type>
 	sub type: <word-list-race>Gargoyle</word-list-race><soft> </soft><word-list-class></word-list-class>
@@ -365,10 +365,10 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Defender</nospellcheck></kw-a>
 		<atom-legname><nospellcheck>Galio</nospellcheck></atom-legname> can block an additional creature.
-		Whenever <atom-legname><nospellcheck>Galio</nospellcheck></atom-legname> is dealt damage by a creature, he deals that much damage to that creature.
+		Whenever <atom-legname><nospellcheck>Galio</nospellcheck></atom-legname> is dealt damage by a creature, you gain that much life.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends demacia
-	power: 3
+	power: 1
 	toughness: 5
 	custom card number: 
 	card code text: 
@@ -413,7 +413,7 @@ card:
 		AV: Dropped CMC from 4 to 2 on CD suggestion
 		NK: Justification counter. Jusitified refers to the counter itself, justification is what the counter provides.
 	time created: 2016-01-23 23:40:43
-	time modified: 2016-10-05 01:47:28
+	time modified: 2016-10-06 21:36:51
 	name: Irelia, Will of the Blades
 	casting cost: 1W
 	image: image27
@@ -422,7 +422,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		Whenever one or more creature attacks you or a planeswalker you control, put a +1/+1 counter on <atom-legname><nospellcheck>Irelia</nospellcheck></atom-legname>.
+		Whenever one or more creatures attack you or a planeswalker you control, put a +1/+1 counter on <atom-legname><nospellcheck>Irelia</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 1
@@ -461,14 +461,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:34:50
-	time modified: 2016-05-29 14:15:40
+	time modified: 2016-10-06 21:42:16
 	name: Karma, Enlightened One
 	casting cost: 1G
 	image: image55
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <sym-auto>3RW</sym-auto>, <sym-auto>T</sym-auto>: Deal 3 damage to target creature you don’t control. If that creature dies this turn, creatures you don’t control can’t attack this turn.
+	rule text: <sym-auto>3RW</sym-auto>, <sym-auto>T</sym-auto>: Deal 3 damage to target creature you don’t control. If that creature dies this turn, all creatures get -2/-0 until end of turn.
 	flavor text: <i-flavor>“Peace, no matter the cost.”</i-flavor>
 	watermark: league of legends ionia
 	power: 2
@@ -483,7 +483,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:43:24
-	time modified: 2016-05-30 23:07:59
+	time modified: 2016-10-06 21:46:58
 	name: Katarina, Sinister Blade
 	casting cost: 3R
 	image: image58
@@ -491,7 +491,7 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> deals 1 damage to up to two target creatures you don’t control.
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>: <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname> deals 1 damage to up to two target creatures.
 		Whenever one or more creature you don’t control dies, untap <atom-legname><nospellcheck>Katarina</nospellcheck></atom-legname>.
 	flavor text: <i-flavor>“The dance of blades.”</i-flavor>
 	watermark: league of legends noxus
@@ -507,9 +507,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:46:48
-	time modified: 2016-05-28 23:41:22
+	time modified: 2016-10-06 21:49:16
 	name: Kayle, Judicator
-	casting cost: 3W
+	casting cost: 2W
 	image: image59
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Angel</word-list-race><soft> </soft><word-list-class></word-list-class>
@@ -520,8 +520,8 @@ card:
 		When <atom-cardname><nospellcheck>Kayle, Judicator</nospellcheck></atom-cardname> enters the battlefield, target creature you control gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends demacia
-	power: 4
-	toughness: 3
+	power: 3
+	toughness: 1
 	custom card number: 
 	card code text: 
 	illustrator: Suke Su
@@ -532,15 +532,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-10-05 11:56:00
+	time modified: 2016-10-06 22:16:00
 	border color: rgb(255,255,255)
 	name: Morgana, Fallen Angel
-	casting cost: 2BR
+	casting cost: 3B
 	image: image60
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Angel</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B/R</sym-auto>. If you do, that creature gets +1/+1 until end of turn and <atom-legname><nospellcheck>Morgana</nospellcheck></atom-legname> deals 1 damage to target attacking player.
+	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B</sym-auto>. If you do, that creature gets +0/+1 until end of turn and target attacking player loses 1 life.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
 	power: 1
@@ -557,7 +557,7 @@ card:
 		CD: I dont really see a mechanical appeal for kennen. little benefit to untapping him other than to block and he’s not a super strong blocker. might want to rework him.
 		AV: Now trying mana reward instead of untapping him
 	time created: 2016-01-24 15:59:35
-	time modified: 2016-10-03 02:08:59
+	time modified: 2016-10-06 21:57:59
 	name: Kennen, Heart of the Tempest
 	casting cost: 1RG
 	image: image2
@@ -565,8 +565,8 @@ card:
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-0><nospellcheck>Ninjutsu <param-cost><sym-auto>RG</sym-auto></param-cost></nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> deals combat damage to a player, he deals 1 damage to each creature and planeswalker that player controls.
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Kennen</nospellcheck></atom-legname> enters the battlefield, he deals 1 damage to each creature you don’t control. Tap them.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 3
@@ -581,19 +581,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 16:14:47
-	time modified: 2016-10-02 17:45:24
+	time modified: 2016-10-06 22:03:43
 	name: Kindred, Eternal Hunters
-	casting cost: 2GG
+	casting cost: 1G
 	image: image12
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		Damage dealt by creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</nospellcheck></kw-0>.
+		Damage dealt to creatures cannot be prevented and creatures cannot <kw-0><nospellcheck>regenerate</nospellcheck></kw-0>.
 		<sym-auto>1G</sym-auto>, <sym-auto>T</sym-auto>: Target creature can’t leave the battlefield this turn. <i-auto>(That creature can’t go from the battlefield to anywhere, including the graveyard.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
+	power: 2
+	toughness: 2
 	custom card number: 
 	card code text: 
 	illustrator: VegaColors @ DeviantArt
@@ -624,7 +624,7 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: Flighty; high damage early; blind monk
+	notes: akFlighty; high damage early; blind monk
 	time created: 2016-01-24 20:06:06
 	time modified: 2016-10-05 16:28:04
 	name: Lee Sin, Blind Monk
@@ -651,7 +651,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 20:09:33
-	time modified: 2016-10-02 17:46:58
+	time modified: 2016-10-06 22:08:06
 	name: Leona, Radiant Dawn
 	casting cost: 3W
 	image: image1
@@ -660,7 +660,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> attacks, another target attacking creature can’t be blocked until end of turn unless <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> is blocked.
+		When <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> attacks, another target attacking creature you control gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor>“I will protect you.”</i-flavor>
 	watermark: league of legends mount targon
 	power: 2
@@ -675,17 +675,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 12:29:24
-	time modified: 2016-10-05 11:55:38
+	time modified: 2016-10-06 22:12:10
 	name: Master Yi, Wuju Bladesman
-	casting cost: 2GW
+	casting cost: GW
 	image: image74
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-0><nospellcheck>Double Strike</nospellcheck></kw-0>
 		<sym-auto>G</sym-auto>: <atom-legname><nospellcheck>Master Yi</nospellcheck></atom-legname> gets +1/+1 until end of turn. Activate this ability only once per turn.
-		<sym-auto>W</sym-auto>: Exile <atom-legname><nospellcheck>Master Yi</nospellcheck></atom-legname> then return him to the battlefield.
+		<sym-auto>W</sym-auto>: <atom-legname><nospellcheck>Master Yi</nospellcheck></atom-legname> gains <kw-0><nospellcheck>double strike</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 2
@@ -770,17 +769,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:49:38
-	time modified: 2016-10-05 02:22:00
-	border color: rgb(255,255,255)
+	time modified: 2016-10-06 22:30:43
+	border color: rgb(200,180,0)
 	name: Riven, Exiled
 	casting cost: 2RW
 	image: image94
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text:
-		When <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname> enters the battlefield, choose a card you own named “Broken Blade” from your graveyard, exile or outside the game then put it onto the battlefield attached to <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname>.
-		<sym-auto>3RW</sym-auto>, <sym-auto>T</sym-auto>: Transform target artifact equipped to <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname>.
+	rule text: 
 	flavor text: <i-flavor></i-flavor>
 	watermark: none
 	power: 2
@@ -795,7 +792,7 @@ card:
 	has styling: false
 	notes: AV: Lots of lines. Is there a way to clean him up?
 	time created: 2016-01-25 14:58:15
-	time modified: 2016-10-05 16:27:49
+	time modified: 2016-10-06 22:41:20
 	name: Rumble, Mechanized Menace
 	casting cost: 2UR
 	image: image95
@@ -803,13 +800,13 @@ card:
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Artificer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Whenever you cast a spell, put a heat counters on <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
-		While <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> has two or more heat counters, you can’t cast spells and creatures you control have +2/+2.
-		At the beginning of your upkeep, remove all heat counters from <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname>.
+		Whenever you cast a spell draw a card, then discard a card and put a heat counter on Rumble.
+		At the beginning of each upkeep, remove a heat counter from Rumble.
+		While <atom-legname><nospellcheck>Rumble</nospellcheck></atom-legname> has two or more heat counters, you can’t cast spells.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends bandle city
-	power: 3
-	toughness: 3
+	power: 2
+	toughness: 2
 	custom card number: 
 	card code text: 
 	illustrator: Riot Games
@@ -1361,7 +1358,13 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes:
+		OT Design:
+		1RR
+		Aurelion
+		0/4 Flying
+		Eot put a charge counter on all stars
+		Etb make stars with "Remove all counters: dmg target creature = # counters"
 	time created: 2016-03-22 17:21:28
 	time modified: 2016-10-05 01:18:25
 	name: Aurelion Sol, Star Forger
@@ -1383,40 +1386,6 @@ card:
 	illustrator: 8-bitpunch@DeviantArt
 	copyright: 
 	image 2: 
-	copyright 2: 
-card:
-	stylesheet: m15-doublefaced
-	has styling: false
-	notes:
-		AV: Feel like transformed side should have one more thing. Maybe an ability?
-		AV: Trying new activated ability
-	time created: 2016-03-22 17:24:36
-	time modified: 2016-10-05 02:21:52
-	name: Broken Blade
-	casting cost: 2
-	type symbol: multitype
-	image: image50
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rarity: mythic rare
-	rule text:
-		Equipped creature gets +1/+0.
-		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	illustrator: Riot Games
-	copyright: 
-	name 2: Blade of the Exile
-	type symbol 2: planeswalker
-	image 2: image 25
-	super type 2: <word-list-type>Legendary Artifact</word-list-type>
-	sub type 2: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
-	rule text 2:
-		Equipped creature gets +3/+2.
-		<sym-auto>2RW</sym-auto>: Equipped creature gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> and gets +1/+0 until end of turn.
-		When <atom-cardname><nospellcheck>Blade of the Exile</nospellcheck></atom-cardname> becomes unequipped, transform it.
-	flavor text 2: <i-flavor></i-flavor>
-	illustrator 2: Jason Chan
 	copyright 2: 
 card:
 	stylesheet: m15-token
@@ -1464,17 +1433,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-10-02 19:38:08
-	time modified: 2016-10-06 20:40:10
+	time modified: 2016-10-06 22:01:28
 	border color: rgb(255,255,255)
 	name: Kled, Cantankerous Cavalier
-	casting cost: 4BR
+	casting cost: 3BR
 	image: image26
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Warrier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> would die, transform him instead.
+		When <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> would die, instead remove all damage from him and transform him.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
 	power: 5
@@ -1487,7 +1456,7 @@ card:
 	image 2: image 22
 	super type 2: <word-list-type>Legendary Creature</word-list-type>
 	sub type 2: <word-list-race>Yordle</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text 2: Whenever <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> deals damage, if he is still on the battlefield, transform him.
+	rule text 2: Whenever <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> deals damage, transform him.
 	flavor text 2: <i-flavor></i-flavor>
 	power 2: 3
 	toughness 2: 1
