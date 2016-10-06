@@ -1464,7 +1464,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-10-02 19:38:08
-	time modified: 2016-10-06 14:05:39
+	time modified: 2016-10-06 20:40:10
 	border color: rgb(255,255,255)
 	name: Kled, Cantankerous Cavalier
 	casting cost: 4BR
@@ -1480,7 +1480,7 @@ card:
 	power: 5
 	toughness: 4
 	card code text: 
-	illustrator: Shafiq Cromwell
+	illustrator: Riot Games
 	copyright: 
 	card color 2: black, red, multicolor, horizontal
 	name 2: Kled, Great Hussar

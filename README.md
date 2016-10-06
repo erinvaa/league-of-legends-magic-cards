@@ -4,12 +4,13 @@ This is a repository of magic cards I designed representing various League of Le
 
 Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owned by Riot Games. All content is copyright by their respective owners.
 
-## Champions without good enough cards
-These champions don't have enough lore to make a card for them do justice (or the lore they do have is no longer cannon). They'll receive cards as they are given updated lore.
+# Subgroups
 
-* Jax
-* Lee Sin
-* Diana
+Since this is getting to be a reasonably large set of cards, I have opted to split them into smaller 4 smaller groups based around alliances.
+
+## Demacia vs Noxus
+
+This is the first group of cards to be released. It contains champions from Demacia, Noxus, Bandle City, Mount Targon, Ionia, and a few unaligned.
 
 # Making Changes
 
