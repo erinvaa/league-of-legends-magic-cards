@@ -156,7 +156,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 17:18:10
-	time modified: 2016-05-28 16:42:06
+	time modified: 2016-10-06 19:35:00
 	name: Sona, Maven of the Strings
 	casting cost: RWU
 	image: image18
@@ -164,9 +164,9 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
+		Whenever you cast a white spell, you may gain 3 life.
 		Whenever you cast a blue spell, you may tap target creature.
 		Whenever you cast a red spell, you may discard a card. If you do, draw a card.
-		Whenever you cast a white spell, you may gain 3 life.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends demacia
 	power: 1
@@ -257,7 +257,7 @@ card:
 	has styling: false
 	notes: AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-10-05 15:14:10
+	time modified: 2016-10-06 19:54:50
 	border color: rgb(255,255,255)
 	name: Diana, Scorn of the Moon
 	casting cost: 2WB
@@ -265,11 +265,13 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: Whenever
+	rule text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> attacks, each player loses 1 life for each creature they control. Then you gain 3 life.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
-	power: 2
-	toughness: 2
+	power: 3
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Kienan Lafferty
@@ -1033,14 +1035,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:01:13
-	time modified: 2016-10-05 02:12:03
+	time modified: 2016-10-06 19:31:59
 	name: Shyvana, Half-Dragon
 	casting cost: 1RR
 	image: image112
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Dragon</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: Whenever <atom-legname><nospellcheck>Shyvana</nospellcheck></atom-legname> attacks, you may pay <sym-auto>R</sym-auto>. If you do, she gets +2/+2 and gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> and <kw-0><nospellcheck>trample</nospellcheck></kw-0> until end of turn.
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		Whenever <atom-legname><nospellcheck>Shyvana</nospellcheck></atom-legname> attacks, you may pay <sym-auto>R</sym-auto>. If you do, she gets +2/+2 and gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> and <kw-0><nospellcheck>trample</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends demacia
 	power: 2
@@ -1162,7 +1166,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-10-05 01:57:05
+	time modified: 2016-10-06 20:02:51
 	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
 	casting cost: 2R
@@ -1171,8 +1175,8 @@ card:
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a><error-spelling>
-		</error-spelling>
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> deals combat damage to a player for the first time this turn, you may untap her. If you do there is an additional combat phase after your next main phase.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends bandle city
 	power: 3
@@ -1456,25 +1460,38 @@ card:
 	image 2: 
 	copyright 2: 
 card:
+	stylesheet: m15-doublefaced
 	has styling: false
 	notes: 
 	time created: 2016-10-02 19:38:08
-	time modified: 2016-10-05 12:09:51
+	time modified: 2016-10-06 14:05:39
 	border color: rgb(255,255,255)
 	name: Kled, Cantankerous Cavalier
-	casting cost: 2BR
-	image: image21
+	casting cost: 4BR
+	image: image26
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Warrier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: 
+	rule text:
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> would die, transform him instead.
 	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
+	watermark: league of legends noxus
+	power: 5
+	toughness: 4
 	card code text: 
 	illustrator: Shafiq Cromwell
 	copyright: 
-	image 2: 
+	card color 2: black, red, multicolor, horizontal
+	name 2: Kled, Great Hussar
+	image 2: image 22
+	super type 2: <word-list-type>Legendary Creature</word-list-type>
+	sub type 2: <word-list-race>Yordle</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text 2: Whenever <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> deals damage, if he is still on the battlefield, transform him.
+	flavor text 2: <i-flavor></i-flavor>
+	power 2: 3
+	toughness 2: 1
+	illustrator 2: Riot Games
 	copyright 2: 
 version control:
 	type: none
