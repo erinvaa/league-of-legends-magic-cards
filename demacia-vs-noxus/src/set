@@ -134,10 +134,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 15:45:31
-	time modified: 2016-10-05 02:02:35
+	time modified: 2016-10-17 20:09:52
 	name: Veigar, Tiny Master of Evil
 	casting cost: 2B
-	image: image9
+	image: image3
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Yordle</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -148,7 +148,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
-	illustrator: Vic Pido
+	illustrator: Riot Games
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -915,7 +915,7 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-10-07 12:57:22
+	time modified: 2016-10-17 20:08:09
 	border color: rgb(255,255,255)
 	name: Zed, Master of Shadows
 	casting cost: 2BB
@@ -925,7 +925,7 @@ card:
 	rarity: rare
 	rule text:
 		At the end of your turn, you may create a 2/2 black Shade Ninja creature token.
-		<sym-auto>1B</sym-auto>, Sacrifice a Shade Ninja: <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
+		<sym-auto>1B</sym-auto>, Sacrifice a Shade: <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 4
@@ -1271,11 +1271,11 @@ card:
 		AV: Worried a bit about complexity here
 		OT: I feel like wording warwick as "if a creature you dont control took damage this turn" is clearer, but it means it doesnt require the creature being still alive. tbf though, I dont know how casting ww with flash matters
 	time created: 2016-01-28 15:54:02
-	time modified: 2016-10-17 19:30:22
+	time modified: 2016-10-17 20:10:46
 	border color: rgb(255,255,255)
 	name: Warwick, Blood Hunter
 	casting cost: 3BG
-	image: image7
+	image: image16
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Werewolf</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1288,7 +1288,7 @@ card:
 	toughness: 3
 	custom card number: 
 	card code text: 
-	illustrator: Apollo661
+	illustrator: Riot Games
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1344,11 +1344,11 @@ card:
 		CD: Needs a rework; not flashy
 		AV: Trying new design
 	time created: 2016-02-01 15:24:54
-	time modified: 2016-10-05 15:21:57
+	time modified: 2016-10-17 20:10:26
 	border color: rgb(255,255,255)
 	name: Jhin, Virtuoso
 	casting cost: 2BR
-	image: image16
+	image: image9
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1362,7 +1362,7 @@ card:
 	toughness: 1
 	custom card number: 
 	card code text: 
-	illustrator: Naheht @ DeviantArt
+	illustrator: Riot Games
 	copyright: 
 	image 2: 
 	copyright 2: 
