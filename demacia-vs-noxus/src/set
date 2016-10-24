@@ -66,10 +66,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 14:29:14
-	time modified: 2016-10-06 22:09:14
+	time modified: 2016-10-22 02:05:52
 	name: Lux, Lady of Luminosity
 	casting cost: WU
-	image: image4
+	image: image11
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -82,7 +82,7 @@ card:
 	toughness: 1
 	custom card number: 
 	card code text: 
-	illustrator: longai@DeviantArt
+	illustrator: Riot Games
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -181,8 +181,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-22 17:32:28
-	time modified: 2016-10-17 19:27:10
-	border color: rgb(255,255,255)
+	time modified: 2016-10-23 00:15:21
 	name: Akali, Fist of Shadow
 	casting cost: 2G
 	image: image20
@@ -191,7 +190,7 @@ card:
 	rarity: rare
 	rule text:
 		When <atom-cardname><nospellcheck>Akali, Fist of Shadow</nospellcheck></atom-cardname> enters the battlefield, she gets +2/+2 until end of turn.
-		<sym-auto>1W</sym-auto>: Exile <atom-legname><nospellcheck>Akali</nospellcheck></atom-legname> then return her to the battlefield at the beginning of the next upkeep step. She gains <kw-0><nospellcheck>haste</nospellcheck></kw-0>.
+		<sym-auto>1W</sym-auto>: Exile <atom-legname><nospellcheck>Akali</nospellcheck></atom-legname> then return her to the battlefield at the beginning of the next upkeep step. She gains <kw-0><nospellcheck>haste</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 3
@@ -232,8 +231,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 01:15:46
-	time modified: 2016-10-06 21:26:09
-	border color: rgb(255,255,255)
+	time modified: 2016-10-20 14:37:01
 	name: Darius, Hand of Noxus
 	casting cost: 1RR
 	image: image117
@@ -257,17 +255,17 @@ card:
 	has styling: false
 	notes: AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-10-17 19:57:39
+	time modified: 2016-10-22 15:12:22
 	border color: rgb(255,255,255)
 	name: Diana, Scorn of the Moon
-	casting cost: 2WB
+	casting cost: 1WB
 	image: image31
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> attacks, each player loses 1 life for each creature they control. Then you gain 3 life.
+		When <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> attacks, each player loses 1 life for each creature they control.
 	flavor text: <i-flavor>“Deny me no longer!”</i-flavor>
 	watermark: league of legends mount targon
 	power: 3
@@ -355,9 +353,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 19:09:49
-	time modified: 2016-10-17 19:02:00
+	time modified: 2016-10-22 02:04:15
 	name: Galio, Sentinel’s Sorrow
-	casting cost: 3W
+	casting cost: 2W
 	image: image38
 	super type: <word-list-type>Legendary Artifact Creature</word-list-type>
 	sub type: <word-list-race>Gargoyle</word-list-race><soft> </soft><word-list-class></word-list-class>
@@ -507,7 +505,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:46:48
-	time modified: 2016-10-17 19:41:54
+	time modified: 2016-10-22 01:24:54
 	name: Kayle, Judicator
 	casting cost: 2W
 	image: image59
@@ -532,15 +530,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-10-17 20:02:36
+	time modified: 2016-10-24 13:09:29
 	border color: rgb(255,255,255)
 	name: Morgana, Fallen Angel
 	casting cost: 3B
 	image: image60
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Angel</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Angel</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B</sym-auto>. If you do, that creature gets +0/+1 until end of turn and target attacking player loses 1 life.
+	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B</sym-auto>. If you do, that creature gets +0/+1 until end of turn and the blocked creature’s controller loses 1 life.
 	flavor text: <i-flavor>“Share in my torment!”</i-flavor>
 	watermark: league of legends noxus
 	power: 1
@@ -626,7 +624,8 @@ card:
 	has styling: false
 	notes: akFlighty; high damage early; blind monk
 	time created: 2016-01-24 20:06:06
-	time modified: 2016-10-05 16:28:04
+	time modified: 2016-10-22 02:05:35
+	border color: rgb(255,255,255)
 	name: Lee Sin, Blind Monk
 	casting cost: GW
 	image: image66
@@ -651,16 +650,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 20:09:33
-	time modified: 2016-10-06 22:08:06
+	time modified: 2016-10-22 17:14:41
+	border color: rgb(255,255,255)
 	name: Leona, Radiant Dawn
-	casting cost: 3W
+	casting cost: 2W
 	image: image1
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> attacks, another target attacking creature you control gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
+		<sym-auto>1W</sym-auto>: The next time damage would be dealt to another target creature you control, it is dealt to <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> instead.
 	flavor text: <i-flavor>“I will protect you.”</i-flavor>
 	watermark: league of legends mount targon
 	power: 2
@@ -745,7 +745,8 @@ card:
 	has styling: false
 	notes: AV: Doesn’t technically work, but everyone knows what I mean
 	time created: 2016-01-25 14:24:27
-	time modified: 2016-10-17 19:51:55
+	time modified: 2016-10-22 02:06:11
+	border color: rgb(255,255,255)
 	name: Quinn, Demacia’s Wings
 	casting cost: 2W
 	image: image8
@@ -769,21 +770,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:49:38
-	time modified: 2016-10-17 19:22:17
-	border color: rgb(255,255,255)
+	time modified: 2016-10-22 15:49:41
 	name: Riven, Exiled
 	casting cost: 2RW
 	image: image94
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
+	rarity: rare
 	rule text:
-		Whenever you cast a spell, you may put a rune counter on <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname>.
-		When <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname> attacks, remove all rune counters from <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname>. She gets +1/+1 until end of turn for each counter removed this way. If you removed 3 or more counters this way, she also gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> until end of turn.
-	flavor text: <i-flavor></i-flavor>
+		<sym-auto>R/W</sym-auto>: <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname> gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> until end of turn.
+		<sym-auto>R/WR/W</sym-auto>: If <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname> has <kw-0><nospellcheck>first strike</nospellcheck></kw-0>, her base power becomes 6 until end of turn.
+		<sym-auto>R/WR/WR/W</sym-auto>: If <atom-legname><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Riven</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power is 6 or greater, she deals 3 damage to target creature and 3 damage to target player.
+	flavor text: <i-flavor>Placeholder</i-flavor>
 	watermark: none
 	power: 3
-	toughness: 2
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Jason Chan
@@ -821,14 +822,15 @@ card:
 	has styling: false
 	notes: OT: You could do shaco like Loki, where you dont know which is morph and which is real (also typo)
 	time created: 2016-01-25 15:10:24
-	time modified: 2016-10-05 02:15:55
+	time modified: 2016-10-22 01:30:59
 	border color: rgb(255,255,255)
 	name: Shaco, Demon Jester
 	casting cost: BR
+	indicator: colorless
 	image: image98
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: rare
+	rarity: mythic rare
 	rule text: When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, exile him and the top card of your library face down in a pile. Shuffle that pile, then put each card onto the battlefield face down tapped and attacking. At the end of combat, exile them, then return <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> to the battlefield tapped. <i-auto>(Face down cards on the battlefield are 2/2 colorless creature.)</i-auto>
 	flavor text: <i-flavor></i-flavor>
 	power: 2
@@ -843,7 +845,8 @@ card:
 	has styling: false
 	notes: OT: GW
 	time created: 2016-01-25 15:11:42
-	time modified: 2016-10-17 19:56:12
+	time modified: 2016-10-22 15:21:05
+	border color: rgb(255,255,255)
 	name: Shen, Eye of Twilight
 	casting cost: 2G
 	image: image99
@@ -867,7 +870,8 @@ card:
 	has styling: false
 	notes: OT: I dont understand what you were going for with urgot
 	time created: 2016-01-25 15:39:26
-	time modified: 2016-05-30 22:59:15
+	time modified: 2016-10-22 02:09:56
+	border color: rgb(255,255,255)
 	name: Urgot, Headsman’s Pride
 	casting cost: 2BG
 	image: image100
@@ -915,20 +919,20 @@ card:
 	has styling: false
 	notes: Don’t think the rules work...
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-10-17 20:08:09
+	time modified: 2016-10-22 01:29:29
 	border color: rgb(255,255,255)
 	name: Zed, Master of Shadows
-	casting cost: 2BB
+	casting cost: 2B
 	image: image106
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		At the end of your turn, you may create a 2/2 black Shade Ninja creature token.
-		<sym-auto>1B</sym-auto>, Sacrifice a Shade: <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
+		At the end of your turn, you may create a 1/1 black Shade Ninja creature token.
+		<sym-auto>1B</sym-auto>, Sacrifice a Shade: <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> gets +2/+2 until end of turn and gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
-	power: 4
+	power: 2
 	toughness: 2
 	custom card number: 
 	card code text: 
@@ -988,7 +992,8 @@ card:
 	has styling: false
 	notes: AV: Needs a fix
 	time created: 2016-01-26 00:58:38
-	time modified: 2016-10-05 01:52:36
+	time modified: 2016-10-22 02:06:43
+	border color: rgb(255,255,255)
 	name: Sion, Undead Juggernaut
 	casting cost: 4B
 	image: image111
@@ -1095,7 +1100,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:12:22
-	time modified: 2016-10-05 02:16:35
+	time modified: 2016-10-22 17:15:11
 	name: Soraka, Starchild
 	casting cost: 1GW
 	image: image23
@@ -1104,7 +1109,7 @@ card:
 	rarity: rare
 	rule text:
 		When <atom-legname><nospellcheck>Soraka</nospellcheck></atom-legname> deals combat damage, put twice that many charge counters on her.
-		Remove X charge counters from <atom-legname><nospellcheck>Soraka</nospellcheck></atom-legname>: Prevent the next X damage that would be dealt to target creature this turn.
+		Remove X charge counters from <atom-legname><nospellcheck>Soraka</nospellcheck></atom-legname>: Prevent the next X damage that would be dealt to another target creature this turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 2
@@ -1195,7 +1200,7 @@ card:
 		OT: add a comma, maybe damage equal to counters?
 		OT: With that effect, I wouldnt pay 3mana for varus
 	time created: 2016-01-28 13:00:52
-	time modified: 2016-10-17 19:08:47
+	time modified: 2016-10-22 17:18:32
 	border color: rgb(255,255,255)
 	name: Varus, Arrow of Retribution
 	casting cost: WBR
@@ -1205,7 +1210,7 @@ card:
 	rarity: rare
 	rule text:
 		At the beginning of your upkeep, put two +1/+1 counters on <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>, then you lose 2 life.
-		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname> deals damage equal to his power to target creature.
+		Sacrifice <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Varus</nospellcheck></atom-legname> deals damage equal to his power to target creature or player.
 	flavor text: <i-flavor>“I’m on borrowed time.”</i-flavor>
 	watermark: league of legends ionia
 	power: 2
@@ -1244,7 +1249,7 @@ card:
 	has styling: false
 	notes: OT: You want vladimir's red black deck to gain life?
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-10-17 20:04:41
+	time modified: 2016-10-22 01:30:29
 	border color: rgb(255,255,255)
 	name: Vladimir, Crimson Reaper
 	casting cost: 2BR
@@ -1253,8 +1258,8 @@ card:
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>, <kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> attacks or blocks, you may deal 2 damage to target creature. If you do, <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> gets +2/+2 until end of turn.
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> attacks or blocks, you may deal 2 damage to another target creature. If you do, <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> gets +2/+2 until end of turn.
 	flavor text: <i-flavor>“Care to make a donation?”</i-flavor>
 	watermark: league of legends noxus
 	power: 2
@@ -1271,8 +1276,7 @@ card:
 		AV: Worried a bit about complexity here
 		OT: I feel like wording warwick as "if a creature you dont control took damage this turn" is clearer, but it means it doesnt require the creature being still alive. tbf though, I dont know how casting ww with flash matters
 	time created: 2016-01-28 15:54:02
-	time modified: 2016-10-17 20:10:46
-	border color: rgb(255,255,255)
+	time modified: 2016-10-20 14:37:54
 	name: Warwick, Blood Hunter
 	casting cost: 3BG
 	image: image16
@@ -1320,10 +1324,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:57:56
-	time modified: 2016-06-02 11:21:13
+	time modified: 2016-10-22 01:44:40
 	name: Xin Zhao, Seneschai of Demacia
 	casting cost: 2W
-	image: image11
+	image: image7
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
@@ -1334,7 +1338,7 @@ card:
 	toughness: 2
 	custom card number: 
 	card code text: 
-	illustrator: Alonewolf99 @ DeviantArt
+	illustrator: Riot Games
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1344,7 +1348,7 @@ card:
 		CD: Needs a rework; not flashy
 		AV: Trying new design
 	time created: 2016-02-01 15:24:54
-	time modified: 2016-10-17 20:10:26
+	time modified: 2016-10-22 17:53:04
 	border color: rgb(255,255,255)
 	name: Jhin, Virtuoso
 	casting cost: 2BR
@@ -1355,7 +1359,7 @@ card:
 	rule text:
 		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
 		<sym-auto>R</sym-auto>: <atom-legname><nospellcheck>Jhin</nospellcheck></atom-legname> gets +1/+0 until end of turn.
-		<sym-auto>B</sym-auto>: Destroy target creature. Activate this ability only if <atom-legname><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Jhin</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power is 4 and only once per turn.
+		<sym-auto>B</sym-auto>: Destroy target creature. Activate this ability only if <atom-legname><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Jhin</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power is exactly 4 and only once per turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 1
@@ -1375,8 +1379,9 @@ card:
 		0/4 Flying
 		Eot put a charge counter on all stars
 		Etb make stars with "Remove all counters: dmg target creature = # counters"
+		AV: Now is 8 mana 8/8 instead of 4 cmc */4 (* = # of stars)
 	time created: 2016-03-22 17:21:28
-	time modified: 2016-10-17 19:38:20
+	time modified: 2016-10-17 21:08:51
 	name: Aurelion Sol, Star Forger
 	casting cost: 6RR
 	image: image152
@@ -1385,7 +1390,7 @@ card:
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname> enters the battlefield, create four red Star enchantment token. It has “Sacrifice this enchantment: It deals 4 damage to each <error-spelling:en_us:/magic.mse-game/magic-words>non-Elder</error-spelling:en_us:/magic.mse-game/magic-words> creature and player.”
+		When <atom-legname><nospellcheck>Aurelion Sol</nospellcheck></atom-legname> enters the battlefield, create four red Star enchantment token. It has “Sacrifice this enchantment: It deals 4 damage to each <error-spelling:en_us:/magic.mse-game/magic-words>non-Elder</error-spelling:en_us:/magic.mse-game/magic-words> creature.”
 	flavor text: <i-flavor>“Cower, worship, beg, they’re all valid reactions.”</i-flavor>
 	watermark: league of legends mount targon
 	power: 8
@@ -1401,14 +1406,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-28 20:36:07
-	time modified: 2016-10-17 19:06:49
+	time modified: 2016-10-22 02:06:59
 	card color: red
 	name: Star
 	image: image14
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment>Star</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: mythic rare
-	rule text: Sacrifice this enchantment: It deals 4 damage to each <error-spelling:en_us:/magic.mse-game/magic-words>non-Dragon</error-spelling:en_us:/magic.mse-game/magic-words> creature and player.
+	rule text: Sacrifice this enchantment: It deals 4 damage to each <error-spelling:en_us:/magic.mse-game/magic-words>non-Elder</error-spelling:en_us:/magic.mse-game/magic-words> creature and player.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
 	custom card number: 
@@ -1422,16 +1427,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-04-11 01:06:50
-	time modified: 2016-10-07 13:00:41
+	time modified: 2016-10-22 15:14:18
 	card color: black
 	name: Shade Ninja
 	image: image171
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Shade</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
 	rule text: 
 	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
+	power: 1
+	toughness: 1
 	card code text: 
 	illustrator: Pan Chengwei
 	copyright: 
@@ -1443,7 +1449,6 @@ card:
 	notes: 
 	time created: 2016-10-02 19:38:08
 	time modified: 2016-10-17 20:01:36
-	border color: rgb(255,255,255)
 	name: Kled, Cantankerous Cavalier
 	casting cost: 3BR
 	image: image26
