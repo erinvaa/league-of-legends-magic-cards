@@ -10,14 +10,9 @@ Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owne
 
 # Subgroups
 
-Since there are a large number of League chanpions, 
+Since there are a large number of League champions, 
 I have opted to split them into smaller 4 smaller groups based around alliances. 
-They'll be completed individually one at a time, and in order.
-
-## Demacia vs Noxus
-
-Demacia vs Noxus is the first group of cards to be released. 
-While it focuses around Demacian and Noxian champions, it also contains champions from Bandle City, Mount Targon, Ionia, and a few unaligned. 
+They'll be completed individually one at a time, achampions, it also contains champions from Bandle City, Mount Targon, Ionia, and a few unaligned. 
 
 # Making Changes
 
