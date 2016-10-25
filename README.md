@@ -1,16 +1,23 @@
 # league-of-legends-magic-cards
 
 This is a repository of magic cards I designed representing various League of Legends characters, places, and items. 
+Unlike regular magic sets, I imagine these being produced as a subset of cards you could go out and buy. 
+While I believe it's possible to stretch out Runeterra (the LoL world) to create a regular Magic set, the focus of the game really is on their characters. 
+Therefore, I think this is better suited to a collection of mostly Legendary creatures 
+and these cards should help satesfy the itch.
 
 Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owned by Riot Games. All content is copyright by their respective owners.
 
 # Subgroups
 
-Since this is getting to be a reasonably large set of cards, I have opted to split them into smaller 4 smaller groups based around alliances.
+Since there are a large number of League chanpions, 
+I have opted to split them into smaller 4 smaller groups based around alliances. 
+They'll be completed individually one at a time, and in order.
 
 ## Demacia vs Noxus
 
-This is the first group of cards to be released. It contains champions from Demacia, Noxus, Bandle City, Mount Targon, Ionia, and a few unaligned.
+Demacia vs Noxus is the first group of cards to be released. 
+While it focuses around Demacian and Noxian champions, it also contains champions from Bandle City, Mount Targon, Ionia, and a few unaligned. 
 
 # Making Changes
 
