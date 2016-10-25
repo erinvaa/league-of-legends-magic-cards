@@ -22,6 +22,9 @@ styling:
 		promo: no
 		image size: standard
 		overlay: 
+	magic-m15-miracle:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
 	magic-m15-planeswalker-clear:
 		text box mana symbols: magic-mana-small.mse-symbol-font
 		overlay: 
@@ -255,14 +258,14 @@ card:
 	has styling: false
 	notes: AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-10-22 15:12:22
+	time modified: 2016-10-24 16:10:45
 	border color: rgb(255,255,255)
 	name: Diana, Scorn of the Moon
 	casting cost: 1WB
 	image: image31
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
+	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
 		When <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> attacks, each player loses 1 life for each creature they control.
@@ -530,7 +533,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-24 01:51:18
-	time modified: 2016-10-24 13:09:29
+	time modified: 2016-10-24 17:32:14
 	border color: rgb(255,255,255)
 	name: Morgana, Fallen Angel
 	casting cost: 3B
@@ -538,7 +541,7 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Angel</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B</sym-auto>. If you do, that creature gets +0/+1 until end of turn and the blocked creature’s controller loses 1 life.
+	rule text: Whenever a creature you control blocks, you may pay <sym-auto>B</sym-auto>. If you do, that creature gets +1/+1 until end of turn and the blocked creature’s controller loses 1 life.
 	flavor text: <i-flavor>“Share in my torment!”</i-flavor>
 	watermark: league of legends noxus
 	power: 1
@@ -770,7 +773,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 14:49:38
-	time modified: 2016-10-22 15:49:41
+	time modified: 2016-10-24 17:20:58
 	name: Riven, Exiled
 	casting cost: 2RW
 	image: image94
@@ -781,7 +784,7 @@ card:
 		<sym-auto>R/W</sym-auto>: <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname> gains <kw-0><nospellcheck>first strike</nospellcheck></kw-0> until end of turn.
 		<sym-auto>R/WR/W</sym-auto>: If <atom-legname><nospellcheck>Riven</nospellcheck></atom-legname> has <kw-0><nospellcheck>first strike</nospellcheck></kw-0>, her base power becomes 6 until end of turn.
 		<sym-auto>R/WR/WR/W</sym-auto>: If <atom-legname><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Riven</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power is 6 or greater, she deals 3 damage to target creature and 3 damage to target player.
-	flavor text: <i-flavor>Placeholder</i-flavor>
+	flavor text: <i-flavor>“What is broken can be reforged!”</i-flavor>
 	watermark: none
 	power: 3
 	toughness: 3
@@ -822,16 +825,18 @@ card:
 	has styling: false
 	notes: OT: You could do shaco like Loki, where you dont know which is morph and which is real (also typo)
 	time created: 2016-01-25 15:10:24
-	time modified: 2016-10-22 01:30:59
+	time modified: 2016-10-24 21:51:45
 	border color: rgb(255,255,255)
 	name: Shaco, Demon Jester
 	casting cost: BR
 	indicator: colorless
 	image: image98
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Spirit</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
-	rule text: When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> attacks, exile him and the top card of your library face down in a pile. Shuffle that pile, then put each card onto the battlefield face down tapped and attacking. At the end of combat, exile them, then return <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> to the battlefield tapped. <i-auto>(Face down cards on the battlefield are 2/2 colorless creature.)</i-auto>
+	sub type: <word-list-race>Demon</word-list-race> <word-list-class>Spirit</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Shaco</nospellcheck></atom-legname> deals combat damage to a player, you may create a 1/1 red and black Illusion token with “When this creature dies, it deals 1 damage to target creature or player”.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -870,7 +875,7 @@ card:
 	has styling: false
 	notes: OT: I dont understand what you were going for with urgot
 	time created: 2016-01-25 15:39:26
-	time modified: 2016-10-22 02:09:56
+	time modified: 2016-10-24 21:59:42
 	border color: rgb(255,255,255)
 	name: Urgot, Headsman’s Pride
 	casting cost: 2BG
@@ -880,7 +885,7 @@ card:
 	rarity: rare
 	rule text:
 		<sym-auto>1G</sym-auto>: <atom-cardname><nospellcheck>Urgot, Headsman’s Pride</nospellcheck></atom-cardname> gets +2/+2 until end of turn. Activate this ability only once per turn.
-		<sym-auto>1B</sym-auto>, Sacrifice a creature or artifact: Return <atom-legname><nospellcheck>Urgot</nospellcheck></atom-legname> from the graveyard to the battlefield tapped.
+		<sym-auto>3B</sym-auto>, Sacrifice a creature or artifact: Return <atom-legname><nospellcheck>Urgot</nospellcheck></atom-legname> from the graveyard to the battlefield tapped.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
 	power: 3
@@ -1475,6 +1480,25 @@ card:
 	power 2: 3
 	toughness 2: 1
 	illustrator 2: Riot Games
+	copyright 2: 
+card:
+	stylesheet: m15-token
+	has styling: false
+	notes: 
+	time created: 2016-10-24 21:48:59
+	time modified: 2016-10-24 21:55:20
+	card color: black, red, multicolor, horizontal
+	name: Illusion
+	image: image28
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Illusion</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: When this creature dies, it deals 1 damage to target creature or player
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
 	copyright 2: 
 version control:
 	type: none
