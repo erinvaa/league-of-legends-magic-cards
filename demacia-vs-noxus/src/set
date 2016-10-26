@@ -256,9 +256,11 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
+	notes:
+		AV: Old text: "Whenever an opponent casts a spell with the text “creatures you control” or “each creature you control”, put a -1/-1 counter on each creature that player controls."
+		MF: she's an assassin, so she should want less targets, but her ability makes her want more. I feel something that rewards aggression into a weak line would work better (when she kills a target, untap her or some other benefit?)
 	time created: 2016-01-23 01:48:48
-	time modified: 2016-10-24 16:10:45
+	time modified: 2016-10-25 05:46:06
 	border color: rgb(255,255,255)
 	name: Diana, Scorn of the Moon
 	casting cost: 1WB
@@ -266,9 +268,7 @@ card:
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> attacks, each player loses 1 life for each creature they control.
+	rule text: When <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> deals combat damage to a player, or a creature <atom-legname><nospellcheck>Diana</nospellcheck></atom-legname> dealt damage to this turn dies, untap her. Then each opponent loses 1 life and you gain 1 life.
 	flavor text: <i-flavor>“Deny me no longer!”</i-flavor>
 	watermark: league of legends mount targon
 	power: 3
@@ -283,21 +283,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-23 16:02:14
-	time modified: 2016-05-28 18:03:25
+	time modified: 2016-10-26 13:03:03
 	name: Dr. Mundo, Madman of Zaun
 	casting cost: 2RG
 	image: image5
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Mutant</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
+	rarity: rare
 	rule text:
-		<atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname> enters the battlefield with three +1/+1 counters on him.
-		At the beginning of your upkeep, put a +1/+1 counter on <atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname>.
-		Remove a +1/+1 counter from <atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname>: Target creature blocks this turn if able.
+		Put a -1/-1 counter on <atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname>: Target creature blocks this turn if able.
+		At the beginning of your upkeep, remove a -1/-1 counter on <atom-legname><nospellcheck>Dr. Mundo</nospellcheck></atom-legname>.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
-	power: 0
-	toughness: 0
+	power: 4
+	toughness: 4
 	custom card number: 
 	card code text: 
 	illustrator: nicholasgwee
@@ -531,7 +530,7 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes: MF: For Morgana, I'm not sure if it's in color, but applying shroud or hexproof to a creature would be cool
 	time created: 2016-01-24 01:51:18
 	time modified: 2016-10-24 17:32:14
 	border color: rgb(255,255,255)
@@ -557,8 +556,9 @@ card:
 	notes:
 		CD: I dont really see a mechanical appeal for kennen. little benefit to untapping him other than to block and he’s not a super strong blocker. might want to rework him.
 		AV: Now trying mana reward instead of untapping him
+		AV: No longer has when deal damage ability.
 	time created: 2016-01-24 15:59:35
-	time modified: 2016-10-17 19:44:16
+	time modified: 2016-10-25 13:32:06
 	name: Kennen, Heart of the Tempest
 	casting cost: 1RG
 	image: image2
@@ -571,7 +571,7 @@ card:
 	flavor text: <i-flavor>As he matured, his energy found no limits and was matched only by his unnerving speed.</i-flavor>
 	watermark: league of legends ionia
 	power: 3
-	toughness: 3
+	toughness: 2
 	custom card number: 
 	card code text: 
 	illustrator: Reislet@DeviantArt
@@ -625,24 +625,30 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: akFlighty; high damage early; blind monk
+	notes:
+		akFlighty; high damage early; blind monk
+		MY: for lee sin, have you considered some kind of ninjutsu effect on him?
+		and then give him an ability to return to hand
+		AV: Going with MY suggestion
+		MF: I'm not quite sure I understand the trample, but the nijitsu life link combo definitely feels good.
+		HT: I like it :)
 	time created: 2016-01-24 20:06:06
-	time modified: 2016-10-22 02:05:35
+	time modified: 2016-10-25 13:29:07
 	border color: rgb(255,255,255)
 	name: Lee Sin, Blind Monk
-	casting cost: GW
+	casting cost: 1GW
 	image: image66
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Monk</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Whenever <atom-legname><nospellcheck>Lee Sin</nospellcheck></atom-legname> becomes blocked, he gets +1/+1 until end of turn for each creature blocking him.
-		<sym-auto>G</sym-auto>: <atom-legname><nospellcheck>Lee Sin</nospellcheck></atom-legname> gains <kw-0><nospellcheck>trample</nospellcheck></kw-0> until end of turn.
-		<sym-auto>W</sym-auto>: <atom-legname><nospellcheck>Lee Sin</nospellcheck></atom-legname> gains <kw-0><nospellcheck>lifelink</nospellcheck></kw-0> until end of turn.
-	flavor text: <i-flavor></i-flavor>
+		<kw-A><nospellcheck>Ninjutsu <param-cost><sym-auto>GW</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(<param-cost><sym-auto>GW</sym-auto></param-cost>, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)</i-auto></atom-reminder-expert></kw-A>
+		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
+		<sym-auto>GW</sym-auto>: Return <atom-legname><nospellcheck>Lee Sin</nospellcheck></atom-legname> to your hand.
+	flavor text: <i-flavor>“Strike firmly!”</i-flavor>
 	watermark: league of legends ionia
-	power: 2
-	toughness: 2
+	power: 3
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Riot Games
@@ -651,19 +657,20 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes: MF: For leona, it's tricky since magic doesn't have much CC, but that's really her focus
 	time created: 2016-01-24 20:09:33
-	time modified: 2016-10-22 17:14:41
+	time modified: 2016-10-25 13:40:40
 	border color: rgb(255,255,255)
+	card color: white
 	name: Leona, Radiant Dawn
-	casting cost: 2W
-	image: image1
+	casting cost: 3W
+	image: image4
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		<sym-auto>1W</sym-auto>: The next time damage would be dealt to another target creature you control, it is dealt to <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> instead.
+		When <atom-legname><nospellcheck>Leona</nospellcheck></atom-legname> enters the battlefield, each creature you don’t control doesn’t untap during it’s controller’s next untap step.
 	flavor text: <i-flavor>“I will protect you.”</i-flavor>
 	watermark: league of legends mount targon
 	power: 2
@@ -746,7 +753,9 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: AV: Doesn’t technically work, but everyone knows what I mean
+	notes:
+		AV: Doesn’t technically work, but everyone knows what I mean
+		AV: No longer has bird token that gives flying to Quinn. Now playing up scout aspect (defending play can’t attack)
 	time created: 2016-01-25 14:24:27
 	time modified: 2016-10-22 02:06:11
 	border color: rgb(255,255,255)
@@ -848,9 +857,12 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: OT: GW
+	notes:
+		OT: GW
+		MY: i feel like he doesn't "do enough"
+		MY: maybe he can flash in and like taunt dmg towards himself in some way
 	time created: 2016-01-25 15:11:42
-	time modified: 2016-10-22 15:21:05
+	time modified: 2016-10-26 12:55:24
 	border color: rgb(255,255,255)
 	name: Shen, Eye of Twilight
 	casting cost: 2G
@@ -860,11 +872,11 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Shen</nospellcheck></atom-legname> enters the battlefield, another target creature gets +0/+2 until end of turn.
+		When <atom-legname><nospellcheck>Shen</nospellcheck></atom-legname> enters the battlefield, the next time damage would be dealt this turn to another target, it is dealt to <atom-legname><nospellcheck>Shen</nospellcheck></atom-legname> instead.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
 	power: 2
-	toughness: 4
+	toughness: 5
 	custom card number: 
 	card code text: 
 	illustrator: Kelly Aleshire
@@ -900,7 +912,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-25 17:27:38
-	time modified: 2016-10-17 19:56:41
+	time modified: 2016-10-25 05:40:02
 	name: Yasuo, Unforgiven
 	casting cost: 1RWU
 	image: image103
@@ -908,8 +920,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>2U</sym-auto>: Target creature gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> until end of turn.
-		<sym-auto>2RW</sym-auto>: Tap target creature with <kw-0><nospellcheck>flying</nospellcheck></kw-0>. <atom-legname><nospellcheck>Yasuo</nospellcheck></atom-legname> 3 damage to that creature.
+		<sym-auto>1U</sym-auto>: Target creature gains <kw-0><nospellcheck>flying</nospellcheck></kw-0> until end of turn.
+		<sym-auto>1RW</sym-auto>: Tap target creature with <kw-0><nospellcheck>flying</nospellcheck></kw-0>. <atom-legname><nospellcheck>Yasuo</nospellcheck></atom-legname> 3 damage to that creature.
 	flavor text: <i-flavor></i-flavor>
 	watermark: none
 	power: 3
@@ -922,22 +934,26 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: Don’t think the rules work...
+	notes:
+		AV: Don’t think the rules work...
+		AV: Trying less weird version with Shade tokens
+		MF: perhaps sacrificing a shade should fast flicker him instead of indestructible?
 	time created: 2016-01-25 18:09:02
-	time modified: 2016-10-22 01:29:29
+	time modified: 2016-10-25 05:13:20
 	border color: rgb(255,255,255)
 	name: Zed, Master of Shadows
-	casting cost: 2B
-	image: image106
+	casting cost: 3B
+	image: image1
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Ninja</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
+		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
 		At the end of your turn, you may create a 1/1 black Shade Ninja creature token.
-		<sym-auto>1B</sym-auto>, Sacrifice a Shade: <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> gets +2/+2 until end of turn and gains <kw-0><nospellcheck>indestructible</nospellcheck></kw-0> until end of turn.
+		<sym-auto>1B</sym-auto>, Sacrifice a Shade: Exile <atom-legname><nospellcheck>Zed</nospellcheck></atom-legname> then return him to the battlefield under your control.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
-	power: 2
+	power: 4
 	toughness: 2
 	custom card number: 
 	card code text: 
@@ -1081,9 +1097,9 @@ card:
 	has styling: false
 	notes: AV: Maybe wait for rework?
 	time created: 2016-01-26 01:10:34
-	time modified: 2016-10-05 13:56:51
+	time modified: 2016-10-24 22:59:57
 	name: Cassiopeia, Serpent’s Embrace
-	casting cost: 2B
+	casting cost: 1B
 	image: image114
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Snake</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -1129,7 +1145,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-26 01:16:23
-	time modified: 2016-10-07 12:43:36
+	time modified: 2016-10-25 13:35:14
 	name: Swain, Master Tactician
 	casting cost: 4WB
 	image: image132
@@ -1139,7 +1155,7 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
 		Whenever a creature an opponent controls attacks or blocks, you gain 2 life.
-		Whenever a creature you control attacks or blocks, draw a card and lose 3 life.
+		Whenever a creature you control attacks or blocks, draw a card and you lose 3 life.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends noxus
 	power: 2
@@ -1176,9 +1192,14 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: 
+	notes:
+		MF: you white bordered it, but I think it's close. Maybe a stat boost but then change it to "when tristana kills a creature" (which is how her passive CD reset works in league)
+		MF: oh, but I guess that wouldn't work
+		 because nobody would block
+		 | nvm
+		MF: feels reasonably close to her tower pushing then
 	time created: 2016-01-28 00:07:20
-	time modified: 2016-10-17 20:03:47
+	time modified: 2016-10-26 12:56:22
 	border color: rgb(255,255,255)
 	name: Tristana, Yordle Gunner
 	casting cost: 2R
@@ -1188,7 +1209,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> deals combat damage to a player for the first time this turn, untap her, then there is an additional combat phase after your next main phase.
+		When <atom-legname><nospellcheck>Tristana</nospellcheck></atom-legname> deals combat damage to a player for the first time each turn, untap her, then there is an additional combat phase after your next main phase.
 	flavor text: <i-flavor>“I bravely volunteer to charge in recklessly!”</i-flavor>
 	watermark: league of legends bandle city
 	power: 3
@@ -1230,16 +1251,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 14:21:38
-	time modified: 2016-10-05 02:08:27
+	time modified: 2016-10-25 05:31:41
 	name: Vayne, Night Hunter
 	casting cost: 2W
 	image: image127
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text:
-		<kw-0><nospellcheck>First Strike</nospellcheck></kw-0>
-		When <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> attacks, you may pay <sym-auto>W</sym-auto>. If you do, exile target creature until <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> leaves the battlefield.
+	rule text: When <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> attacks, you may pay <sym-auto>W</sym-auto>. If you do, exile target creature until <atom-legname><nospellcheck>Vayne</nospellcheck></atom-legname> leaves the battlefield.
 	flavor text: <i-flavor>“Let us hunt those who have fallen to darkness”</i-flavor>
 	watermark: league of legends demacia
 	power: 3
@@ -1252,23 +1271,25 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: OT: You want vladimir's red black deck to gain life?
+	notes:
+		OT: You want vladimir's red black deck to gain life?
+		MY: Maybe lifelink over haste
 	time created: 2016-01-28 15:47:36
-	time modified: 2016-10-22 01:30:29
+	time modified: 2016-10-24 23:34:15
 	border color: rgb(255,255,255)
 	name: Vladimir, Crimson Reaper
-	casting cost: 2BR
+	casting cost: 3BR
 	image: image130
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
 		When <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> attacks or blocks, you may deal 2 damage to another target creature. If you do, <atom-legname><nospellcheck>Vladimir</nospellcheck></atom-legname> gets +2/+2 until end of turn.
 	flavor text: <i-flavor>“Care to make a donation?”</i-flavor>
 	watermark: league of legends noxus
-	power: 2
-	toughness: 2
+	power: 3
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Michal Ivan
@@ -1281,7 +1302,7 @@ card:
 		AV: Worried a bit about complexity here
 		OT: I feel like wording warwick as "if a creature you dont control took damage this turn" is clearer, but it means it doesnt require the creature being still alive. tbf though, I dont know how casting ww with flash matters
 	time created: 2016-01-28 15:54:02
-	time modified: 2016-10-20 14:37:54
+	time modified: 2016-10-26 12:56:55
 	name: Warwick, Blood Hunter
 	casting cost: 3BG
 	image: image16
@@ -1290,11 +1311,11 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
-		Whenever a creature an opponent controls takes combat damage, you may have <atom-legname><nospellcheck>Warwick</nospellcheck></atom-legname> <kw-0><nospellcheck>fight</nospellcheck></kw-0> it.
+		Whenever a creature an opponent controls takes damage, you may have <atom-legname><nospellcheck>Warwick</nospellcheck></atom-legname> <kw-0><nospellcheck>fight</nospellcheck></kw-0> it.
 	flavor text: <i-flavor>“I smell their stench.”</i-flavor>
 	watermark: league of legends noxus
 	power: 4
-	toughness: 3
+	toughness: 4
 	custom card number: 
 	card code text: 
 	illustrator: Riot Games
@@ -1305,7 +1326,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-01-28 15:56:39
-	time modified: 2016-10-17 19:10:20
+	time modified: 2016-10-25 05:36:07
 	name: Wukong, Monkey King
 	casting cost: 1GU
 	image: image137
@@ -1314,11 +1335,11 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Prowess</nospellcheck></kw-a>
-		<sym-auto>GU</sym-auto>, Return <atom-legname><nospellcheck>Wukong</nospellcheck></atom-legname> to your hand: Create a 0/2 blue and green Illusion Monkey Ninja creature token. Sacrifice it at the end of turn.
+		<sym-auto>GU</sym-auto>, Return <atom-legname><nospellcheck>Wukong</nospellcheck></atom-legname> to your hand: Create a 0/3 blue and green Illusion Monkey Ninja creature token. Sacrifice it at the end of turn.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends ionia
-	power: 2
-	toughness: 2
+	power: 3
+	toughness: 3
 	custom card number: 
 	card code text: 
 	illustrator: Christian Fell & Joshua Brian Smith
@@ -1353,10 +1374,10 @@ card:
 		CD: Needs a rework; not flashy
 		AV: Trying new design
 	time created: 2016-02-01 15:24:54
-	time modified: 2016-10-22 17:53:04
+	time modified: 2016-10-24 23:28:02
 	border color: rgb(255,255,255)
 	name: Jhin, Virtuoso
-	casting cost: 2BR
+	casting cost: BR
 	image: image9
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -1411,14 +1432,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-03-28 20:36:07
-	time modified: 2016-10-22 02:06:59
+	time modified: 2016-10-26 13:02:54
 	card color: red
 	name: Star
 	image: image14
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment>Star</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
-	rarity: mythic rare
-	rule text: Sacrifice this enchantment: It deals 4 damage to each <error-spelling:en_us:/magic.mse-game/magic-words>non-Elder</error-spelling:en_us:/magic.mse-game/magic-words> creature and player.
+	rarity: rare
+	rule text: Sacrifice this enchantment: It deals 4 damage to each <error-spelling:en_us:/magic.mse-game/magic-words>non-Elder</error-spelling:en_us:/magic.mse-game/magic-words> creature.
 	flavor text: <i-flavor></i-flavor>
 	watermark: league of legends mount targon
 	custom card number: 
@@ -1453,7 +1474,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-10-02 19:38:08
-	time modified: 2016-10-17 20:01:36
+	time modified: 2016-10-26 13:05:16
 	name: Kled, Cantankerous Cavalier
 	casting cost: 3BR
 	image: image26
@@ -1477,6 +1498,7 @@ card:
 	sub type 2: <word-list-race>Yordle</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text 2: Whenever <atom-legname><nospellcheck>Kled</nospellcheck></atom-legname> deals combat damage, transform him.
 	flavor text 2: <i-flavor>“<error-spelling:en_us>Skaarl</error-spelling:en_us>! You’re missing the fun!”</i-flavor>
+	watermark 2: league of legends noxus
 	power 2: 3
 	toughness 2: 1
 	illustrator 2: Riot Games
