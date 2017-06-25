@@ -4,7 +4,7 @@ This is a repository of magic cards I designed representing various League of Le
 Unlike regular magic sets, I imagine these being produced as a subset of cards you could go out and buy. 
 While I believe it's possible to stretch out Runeterra (the LoL world) to create a regular Magic set, the focus of the game really is on their characters. 
 Therefore, I think this is better suited to a collection of mostly Legendary creatures 
-and these cards should help satesfy the itch.
+and these cards should help satisfy the itch.
 
 Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owned by Riot Games. All content is copyright by their respective owners.
 
