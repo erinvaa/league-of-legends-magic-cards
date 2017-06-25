@@ -11,7 +11,7 @@ Magic: the Gathering is owned by Wizards of the Coast. League of Legends is owne
 # Subgroups
 
 Since there are a large number of League champions, 
-I have opted to split them into smaller 4 smaller groups based around alliances. 
+I have opted to split them into four smaller groups based around alliances. 
 They'll be completed individually one at a time, achampions, it also contains champions from Bandle City, Mount Targon, Ionia, and a few unaligned. 
 
 # Making Changes
@@ -34,7 +34,7 @@ Before committing, please use `compile-from-src.sh` to keep the mse file and src
 ### Gold Borders
 Currently Gold Borders are used as a easy way to hold the collector number of a card that isn't ready to be exported yet. Please use them as such.
 
-### White Boaders
+### White Borders
 White Borders indicate a card that should be highlighted for feedback. These cards are trying something new or I feel as though there might be something wrong with them so I'm looking for advice on them.
 
 ### Exporting Images
